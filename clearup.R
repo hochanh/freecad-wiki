@@ -1,0 +1,6 @@
+library(stringr)
+wiki <- readLines("FreeCAD+Documentation-20141228075817.xml")
+wiki <- str_replace_all(wiki,"&lt;translate&gt;","")
+wiki <- str_replace_all(wiki,"&lt;/translate&gt;","")
+wiki <- str_replace_all(wiki,"&lt;languages/&gt;","")
+wiki <- writeLines(wiki,"wiki.xml")
