@@ -1,0 +1,46 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.7/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.7/ http://www.mediawiki.org/xml/export-0.7.xsd" version="0.7" xml:lang="en">
+  <siteinfo>
+    <sitename>FreeCAD Documentation</sitename>
+    <base>http://www.freecadweb.org/wiki/index.php?title=Main_Page</base>
+    <generator>MediaWiki 1.20.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">FreeCAD</namespace>
+      <namespace key="5" case="first-letter">FreeCAD talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="1198" case="first-letter">Translations</namespace>
+      <namespace key="1199" case="first-letter">Translations talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>MediaWiki talk:Sidebar</title>
+    <ns>9</ns>
+    <id>397</id>
+    <revision>
+      <id>2091</id>
+      <timestamp>2009-04-22T22:13:24Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>New page: What about changing the screenshots link to the screenshots page here on the wiki? and change screen shoots to screenshots... --~~~~</comment>
+      <sha1>4hxn4qs4lam1p1nw9dx27m7r386uefm</sha1>
+      <text xml:space="preserve" bytes="191">What about changing the screenshots link to the screenshots page here on the wiki? and change screen shoots to screenshots... --[[User:Yorikvanhavre|Yorikvanhavre]] 22:13, 22 April 2009 (UTC)</text>
+    </revision>
+  </page>
+</mediawiki>

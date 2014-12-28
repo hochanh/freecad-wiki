@@ -1,0 +1,26 @@
+
+MediaWiki:Common.css
+MediaWiki:Common.js
+MediaWiki:Geshi.css
+MediaWiki:Print.css
+MediaWiki:Sidebar
+MediaWiki:Sidebar-FAQ
+MediaWiki:Sidebar-FAQ/fr
+MediaWiki:Sidebar-downloads
+MediaWiki:Sidebar-downloads/fr
+MediaWiki:Sidebar-features
+MediaWiki:Sidebar-features/fr
+MediaWiki:Sidebar-forum
+MediaWiki:Sidebar-forum/fr
+MediaWiki:Sidebar-getting started
+MediaWiki:Sidebar-getting started/fr
+MediaWiki:Sidebar-messages
+MediaWiki:Sidebar-screenshots
+MediaWiki:Sidebar-screenshots/fr
+MediaWiki:Sidebar-tracker
+MediaWiki:Sidebar-tracker/fr
+MediaWiki:Sidebar-tutorials
+MediaWiki:Sidebar-tutorials/fr
+MediaWiki:Sidebar-wikihome
+MediaWiki:Sidebar-wikihome/fr
+MediaWiki:Sitenotice

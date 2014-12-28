@@ -1,0 +1,1684 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.7/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.7/ http://www.mediawiki.org/xml/export-0.7.xsd" version="0.7" xml:lang="en">
+  <siteinfo>
+    <sitename>FreeCAD Documentation</sitename>
+    <base>http://www.freecadweb.org/wiki/index.php?title=Main_Page</base>
+    <generator>MediaWiki 1.20.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">FreeCAD</namespace>
+      <namespace key="5" case="first-letter">FreeCAD talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="1198" case="first-letter">Translations</namespace>
+      <namespace key="1199" case="first-letter">Translations talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Help:Contents</title>
+    <ns>12</ns>
+    <id>253</id>
+    <revision>
+      <id>1750</id>
+      <parentid>1749</parentid>
+      <timestamp>2009-02-02T13:30:24Z</timestamp>
+      <contributor>
+        <username>Jriegel</username>
+        <id>6</id>
+      </contributor>
+      <minor/>
+      <comment>2 revisions</comment>
+      <sha1>eitzv35l8a46wsya7z24x4fjpmwqv6v</sha1>
+      <text xml:space="preserve" bytes="1168">Currently there is not much local help functionality in this wiki.
+If you are not familiar with the MediaWiki used here you might want to have a look at the [http://meta.wikimedia.org/wiki/Help:Contents MediaWiki Help] pages. In fact this Wiki is very similar to the wiki used in [http://en.wikipedia.org/ Wikipedia] so this might also be a good place to find information about MediaWiki.
+
+== How to Write Articels for FreeCAD Documentation ==
+There are currently only a few rules if you want to participate.
+
+=== Writing ===
+Writing an article is easy. Choose a speaking name for the article like &quot;[[CompileOnWindows|Compile on Windows]]&quot; or &quot;[[Mouse Model]]&quot; and start the article with a short introduction which should explain the lemma. Mark the lemma in '''bold letters''' in the introduction, and do not use bold fonts elsewhere.
+
+=== Deleting ===
+When you think an article should be deleted you can place the [[:Template:Delete|deletion template]] on the top of the page. One of the administrators will look for this article and decide wether it should be deleted. On details on how to use the template see [[Template talk:delete]].
+
+[[Category:Administration]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Help:Editing</title>
+    <ns>12</ns>
+    <id>254</id>
+    <revision>
+      <id>133963</id>
+      <parentid>133962</parentid>
+      <timestamp>2014-12-27T16:59:38Z</timestamp>
+      <contributor>
+        <username>Renatorivo</username>
+        <id>1744</id>
+      </contributor>
+      <comment>Undo revision 133962 by [[Special:Contributions/Renatorivo|Renatorivo]] ([[User talk:Renatorivo|talk]])</comment>
+      <sha1>kt9afq168k8bw605oqlilsvcae0wuu6</sha1>
+      <text xml:space="preserve" bytes="16871">This page is a quick reference for Wikitext. A full help for [http://en.wikipedia.org/wiki/Help:Wiki_markup Wiki markup] can be found at Wikipedia.
+----
+
+This Editing Overview has a lot of '''wikitext''' examples. You may want to keep this page open in a separate browser window for reference while you edit.
+
+== Editing  basics ==
+;Start editing
+:To start editing a MediaWiki page, click the '''Edit this page''' (or just '''edit''') link at one of its edges. This brings you to the '''edit page''': a page with a text box containing the ''[[wikipedia:wikitext|wikitext]]'': the editable source code from which the server produces the webpage. ''If you just want to experiment, please do so in the [[FreeCADDocu:Sandbox|sandbox]], not here''.
+
+;Type your changes
+:You can just type your text. However, also using basic wiki markup (described in the next section) to make links and do simple formatting adds to the value of your contribution.
+
+;Summarize your changes
+:Write a short edit summary in the small field below the edit-box. You may use shorthand to describe your changes, as described in the legend.
+
+;Preview before saving
+:When you have finished, click '''Show preview''' to see how your changes will look -- '''before''' you make them permanent.  Repeat the edit/preview process until you are satisfied, then click '''Save page''' and your changes will be immediately applied to the article.
+
+:You can also use the links of the tools in the form of {{KEY|[[Workbench_KEY|Buttons]]}} or, in the form of [[Workbench_ICON|Icons]].
+
+&lt;br style=&quot;clear:all&quot; /&gt;
+=== Basic text formatting ===
+{| {{prettytable}} width=&quot;100%&quot; border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!What it looks like
+!What you type
+|-
+|
+You can ''italicize text'' by putting 2 
+apostrophes on each side. 
+
+3 apostrophes will bold '''the text'''. 
+
+5 apostrophes will bold and italicise 
+'''''the text'''''.
+
+(4 apostrophes don't do anything special -- there's just ''''one left over''''.)
+|&lt;pre&gt;
+You can ''italicize text'' by putting 2 
+apostrophes on each side. 
+
+3 apostrophes will bold '''the text'''. 
+
+5 apostrophes will bold and italicize 
+'''''the text'''''.
+
+(4 apostrophes don't do anything special 
+ -- there's just ''''one left over''''.)
+&lt;/pre&gt;
+|-
+|
+A single newline
+has no effect
+on the layout.
+But an empty line
+
+starts a new paragraph.
+|&lt;pre&gt;
+A single newline
+has no effect
+on the layout.
+But an empty line
+
+starts a new paragraph.
+&lt;/pre&gt;
+|-
+|
+You can break lines&lt;br /&gt;
+without a new paragraph.&lt;br /&gt;
+Please use this sparingly.
+|&lt;pre&gt;
+You can break lines&lt;br /&gt;
+without a new paragraph.&lt;br /&gt;
+Please use this sparingly.
+&lt;/pre&gt;
+|-
+|
+You should &quot;sign&quot; your comments on talk pages: &lt;br /&gt;
+- Three tildes gives your user name: [[User:xorx|Dr. Schorsch]] &lt;br /&gt;
+- Four tildes give your user name plus date/time: [[User:xorx|Dr. Schorsch]] 20:55, 1 November 2006 (CET)&lt;br /&gt;
+- Five tildes gives the date/time alone: 21:01, 1 November 2006 (CET)&lt;br /&gt;
+|&lt;pre&gt;
+You should &quot;sign&quot; your comments 
+on talk pages: &lt;br /&gt;
+- Three tildes gives your user
+name: ~~~ &lt;br /&gt;
+- Four tildes give your user 
+name plus date/time: ~~~~ &lt;br /&gt;
+- Five tildes gives the 
+date/time alone: ~~~~~ &lt;br /&gt;
+&lt;/pre&gt;
+|-
+|
+You can use &lt;b&gt;HTML tags&lt;/b&gt;, too, if you
+want. Some useful ways to use HTML:
+
+Put text in a &lt;tt&gt;typewriter font&lt;/tt&gt;. The same
+font is generally used for &lt;code&gt;computer code&lt;/code&gt;.
+
+&lt;strike&gt;Strike out&lt;/strike&gt; or &lt;u&gt;underline&lt;/u&gt;text,
+or write it &lt;span style=&quot;font-variant:small-caps&quot;&gt;
+in small caps&lt;/span&gt;.
+
+Superscripts and subscripts:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+
+Invisible comments to editors (&amp;lt;!-- --&amp;gt;) 
+only appear while editing the page.
+&lt;!-- Note to editors: blah blah blah. --&gt;
+
+If you wish to make comments to the public, 
+you should usually go on the [[wikipedia:wikipedia:talk page|talk page]], though.
+|&lt;pre&gt;
+You can use &lt;b&gt;HTML tags&lt;/b&gt;,
+too, if you want. Some useful
+ways to use HTML:
+
+Put text in a &lt;tt&gt;typewriter
+font&lt;/tt&gt;. The same font is 
+generally used for &lt;code&gt;
+computer code&lt;/code&gt;.
+
+&lt;strike&gt;Strike out&lt;/strike&gt;
+or &lt;u&gt;underline&lt;/u&gt; text,
+or write it &lt;span style=
+&quot;font-variant:small-caps&quot;&gt;
+in small caps&lt;/span&gt;.
+
+Superscripts and subscripts:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+
+Invisible comments to editors (&amp;amp;lt;!-- --&amp;amp;gt;) 
+only appear while editing the page.
+&lt;!-- Note to editors: blah blah blah. --&gt;
+
+If you wish to make comments to the public, 
+you should usually go on the 
+[[wikipedia:wikipedia:talk page|talk page]], though.
+&lt;/pre&gt;
+|}
+
+For a list of HTML tags that are allowed, see [[Wikipedia:Help:HTML in wikitext|HTML in wikitext]]. However, you should avoid HTML in favor of Wiki markup whenever possible.
+
+=== Organizing your writing ===
+{| {{prettytable}} width=&quot;100%&quot;  border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!What it looks like
+!What you type
+|-
+|
+&lt;div style=&quot;font-size:150%;border-bottom:1px solid #000000;&quot;&gt;Section headings&lt;/div&gt;
+
+''Headings'' organize your writing into sections.
+The Wiki software can automatically generate
+a table of contents from them.
+
+&lt;div style=&quot;font-size:132%;font-weight:bold;&quot;&gt;Subsection&lt;/div&gt;
+Using more equals signs creates a subsection.
+
+&lt;div style=&quot;font-size:116%;font-weight:bold;&quot;&gt;A smaller subsection&lt;/div&gt;
+
+Don't skip levels, like from two to four equals signs.
+
+Start with 2 equals signs not 1 because 1 creates H1 tags which should be reserved for page title.
+|&lt;pre&gt;
+== Subsection ==
+Using more equals signs creates a subsection.
+
+=== A smaller subsection ===
+&lt;/pre&gt;
+|-
+|
+===External links===
+You will often want to make clickable ''links'' to other pages.
+
+Here's a link to a page named [[CompileOnUnix]].
+You can not say [[compileonunix]] but
+[[CompileOnUnix]]es and the link will
+show up correctly.
+|&lt;pre&gt;
+Here's a link to a page named [[CompileOnUnix]].
+You can not say [[compileonunix]] but
+[[CompileOnUnix]]es and the link will
+show up correctly.
+&lt;/pre&gt;
+|-
+|
+You can put formatting around a link.
+Example: ''[[CompileOnUnix]]''.
+|&lt;pre&gt;
+You can put formatting around a link.
+Example: ''[[CompileOnUnix]]''.
+&lt;/pre&gt;
+|-
+|
+The ''first letter'' of articles is automatically
+capitalized, so [[CompileOnUnix]] goes to the same place
+as [[compileOnUnix]]. Capitalization matters after the
+first letter.
+|&lt;pre&gt;
+The ''first letter'' of articles is automatically
+capitalized, so [[CompileOnUnix]] goes to the same place
+as [[compileOnUnix]]. Capitalization matters after the
+first letter.
+&lt;/pre&gt;
+|-
+|
+[[The weather in Riga]] is a page that doesn't exist
+yet. You could create it by clicking on the link.
+|&lt;pre&gt;
+[[The weather in Riga]] is a page that doesn't exist
+yet. You could create it by clicking on the link.
+&lt;/pre&gt;
+|-
+|
+You can link to a page section by its heading:
+
+*[[Help:Editing#Organizing your writing]].
+
+If multiple sections have the same heading, add
+a number. [[#Example section 3]] goes to the
+third section named &quot;Example section&quot;.
+|&lt;pre&gt;
+You can link to a page section by its heading:
+
+*[[Help:Editing#Organizing your writing]].
+
+If multiple sections have the same heading, add
+a number. [[#Example section 3]] goes to the
+third section named &quot;Example section&quot;.
+&lt;/pre&gt;
+|-
+|
+You can make a link point to a different place
+with a piped link. Put the link
+target first, then the pipe character &quot;|&quot;, then
+the link text.
+
+*[[CompileOnUnix|Compile On Unix]]
+|&lt;pre&gt;
+You can make a link point to a different place
+with a piped link. Put the link
+target first, then the pipe character &quot;|&quot;, then
+the link text.
+
+*[[CompileOnUnix|Compile On Unix]]
+&lt;/pre&gt;
+|-
+|
+You can make a link to Wikipedia by typing:
+[[wikipedia:Python (programming language)]]
+
+You can make an external link just by typing a URL:
+http://www.nupedia.com
+
+You can give it a title:
+[http://www.nupedia.com Nupedia]
+
+Or leave the title blank:
+[http://www.nupedia.com]
+|
+&lt;pre&gt;
+You can make a link to Wikipedia by typing:
+[[wikipedia:Python (programming language)]]
+
+You can make an external link just by typing a URL:
+http://www.nupedia.com
+
+You can give it a title:
+[http://www.nupedia.com Nupedia]
+
+Or leave the title blank:
+[http://www.nupedia.com]
+&lt;/pre&gt;
+|-
+|
+Linking to an e-mail address works the same way:
+mailto:someone@domain.com or 
+[mailto:someone@domain.com someone]
+|
+&lt;pre&gt;
+Linking to an e-mail address works the same way:
+mailto:someone@domain.com or 
+[mailto:someone@domain.com someone]
+&lt;/pre&gt;
+|-
+|
+You can redirect the user to another page.
+|&lt;pre&gt;
+#REDIRECT [[Official position]]
+&lt;/pre&gt;
+|-
+|
+To put an article in a [http://en.wikipedia.org/wiki/Wikipedia:Categorization category], 
+place a link like Category:Help into the article. 
+Category links do not show up in line
+but at page bottom ''and cause the page to be''
+''listed in the category.''
+[[Category:Help]]
+
+To link to a category page without putting the article
+into the category, use a colon prefix (&quot;:Category&quot;) 
+in the link. [[:Category:Help]]
+|&lt;pre&gt;
+To put an article in a category, 
+place a link like Category:Help into the article.
+Category links do not show up in line
+but at page bottom ''and cause the page to be''
+''listed in the category.''
+[[Category:Help]]
+
+To link to a category page without putting the article
+into the category, use a colon prefix (&quot;:Category&quot;)
+in the link. [[:Category:Help]]
+&lt;/pre&gt;
+
+|-
+|
+You can include pictures [[Image:Base_ExampleCommandModel.png]]. You can refer to [http://www.mediawiki.org/wiki/Help:Images MediaWiki Images Help] for details about the possible options. A very useful one is 'none', allowing your picture to be positioned on the left, with no flowing text:
+[[Image:Base_ExampleCommandModel.png|none]]
+
+|&lt;pre&gt;
+You can include pictures [[Image:Base_ExampleCommandModel.png]].
+You can refer to [http://www.mediawiki.org/wiki/Help:
+Images MediaWiki Images Help] for details about the possible
+options. A very useful one is 'none', allowing your picture to
+be positioned on the left, with no flowing text:
+[[Image:Base_ExampleCommandModel.png|none]]
+&lt;/pre&gt;
+
+|-
+|
+You can use ordered or unordered lists:
+
+# Item1
+## Sub-item 1.1
+### Sub-item 1.1.1
+## Sub-item 1.2
+# Item2
+
+* Item1
+** Sub-item 1.1
+*** Sub-item 1.1.1
+** Sub-item 1.2
+* Item2
+
+|&lt;pre&gt;
+You can use ordered or unordered lists:
+
+# Item1
+## Sub-item 1.1
+### Sub-item 1.1.1
+## Sub-item 1.2
+# Item2
+
+* Item1
+** Sub-item 1.1
+*** Sub-item 1.1.1
+** Sub-item 1.2
+* Item2
+&lt;/pre&gt;
+|}
+
+==Collapsible element==
+
+===Collapsible element complete page===
+
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot;&gt;
+===Click to see the code===
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot;&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+===Your Title===
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+&lt;/nowiki&gt;
+
+Your text and image [[Image:Base_ExampleCommandModel.png|16px]] FreeCAD.
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+===Collapsible element 500 pixels===
+
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot; style=&quot;width:500px&quot;&gt;
+===Click to see the code===
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot; style=&quot;width:500px&quot;&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+===Your Title===
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+&lt;/nowiki&gt;
+
+Your text and image [[Image:Base_ExampleCommandModel.png|16px]] FreeCAD.
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+==Colored syntax and delimitation of the code==
+
+To delimit the code (creating a framework) a macro or procedure you have different solutions :
+
+'''1: A space between the edge of the page and the first column of the code.'''
+
+Example :
+
+A space has been added to all lines
+
+ import math
+ from pivy import coin
+ cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+ rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+        self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+        self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+'''For macros, this method is deprecated !''' the user who wants to copy the code to test the macro is obliged to remove this space at the risk of creating errors of indentation to the execution of the code.
+
+'''2: Tags &lt;nowiki&gt;&lt;pre&gt; and &lt;/pre&gt;&lt;/nowiki&gt;'''
+
+Example :
+
+'''&lt;nowiki&gt;&lt;pre&gt;&lt;/nowiki&gt;'''
+&lt;pre&gt;
+import math
+from pivy import coin
+cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+       self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+       self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+&lt;/pre&gt;
+'''&lt;nowiki&gt;&lt;/pre&gt;&lt;/nowiki&gt;'''
+
+'''3: Tags &lt;nowiki&gt;&lt;syntaxhighlight&gt; and &lt;/syntaxhighlight&gt;&lt;/nowiki&gt;'''
+
+These tags are used to delimit your macro and ''' color syntax '''' code.
+
+Example:
+
+'''&lt;nowiki&gt;&lt;syntaxhighlight&gt;&lt;/nowiki&gt;'''
+&lt;syntaxhighlight&gt;
+import math
+from pivy import coin
+cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+       self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+       self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+&lt;/syntaxhighlight&gt;
+'''&lt;nowiki&gt;&lt;/syntaxhighlight&gt;&lt;/nowiki&gt;'''
+
+'''4: Tags &lt;nowiki&gt;&lt;source lang=python&gt; and &lt;/source&gt;&lt;/nowiki&gt;'''
+
+These tags give a result was same as '''&lt;nowiki&gt;&lt;syntaxhighlight&gt;&lt;/nowiki&gt;''', but the peculiarity of this syntax is that you can have a different coloration depending on the used programming language.
+
+Options:
+
+*'''&lt;nowiki&gt;&lt;source lang=python&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=pascal&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=java&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=&lt;/nowiki&gt; ..........'''
+
+== Templates and transcluding pages ==
+
+'''[http://en.wikipedia.org/wiki/Help:Template Templates]''' are segments of wiki markup that are meant to be copied automatically (&quot;transcluded&quot;) into a page.
+You add them by putting the template's name in &lt;nowiki&gt;{{double braces}}&lt;/nowiki&gt;.
+By default, pages are transcluded from the default '''Template''' namespace. The namespace is the portion of a page name before the colon; for instance, in [[Help:Editing]], '''Help''' is the namespace in which the page '''Editing''' lives.
+
+It is also possible to transclude other pages from the default namespace (the null one) by using &lt;nowiki&gt;{{:colon and double braces}}&lt;/nowiki&gt;.
+
+There are three pairs of transclusion markup tags that can be used in wikitext to control how transclusion affects parts of a template or article.
+They determine whether or not wikitext renders, either in its own article, which we will call &quot;'''here'''&quot;, or in another article where it is transcluded, which we will call &quot;'''there'''&quot;.
+* '''&lt;nowiki&gt;&lt;noinclude&gt;&lt;/nowiki&gt;: ''' the content '''will not be rendered ''there'''''. These tags have no effect ''here''.
+* '''&lt;nowiki&gt;&lt;includeonly&gt;&lt;/nowiki&gt;: ''' the content  '''will render only ''there''''', and  '''will not render ''here''''' (like ''invisible ink'' made visible by means of transclusion).
+* '''&lt;nowiki&gt;&lt;onlyinclude&gt;&lt;/nowiki&gt;: ''' the content '''will render ''here''''' and '''will render ''there''''', but it will only render ''there'' what is between these tags.
+There can be several such section. Also, they can be nested.
+
+'''Remark''': if a page is transcluded without any transclusion markup, it may cause an unintentional [http://en.wikipedia.org/wiki/Wikipedia:Categorization categorization]. Any page transcluding it will contain the same category as the original page. Wrap the category markup with '''&lt;nowiki&gt;&lt;noinclude&gt;&lt;/nowiki&gt;''' tags to prevent incorrect categorization.
+
+{| {{prettytable}} width=&quot;100%&quot;  border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!What it looks like
+!What you type
+|-
+|
+{{Transclusion demo}}
+|&lt;nowiki&gt;
+{{Transclusion demo}}
+&lt;/nowiki&gt;
+|-
+|
+{{Help:Transclusion demo}}
+|&lt;nowiki&gt;
+{{Help:Transclusion demo}}
+&lt;/nowiki&gt;
+|}
+
+== Special Pages ==
+Special pages are pages that cannot be edited, but are generated by the wiki engine.
+They provide very useful functions, and live in the '''Special''' namespace.
+A summary of all special pages is available from [[Special:SpecialPages]].
+
+Direct link to frequently used Special pages are:
+
+* [[Special:WhatLinksHere]] that allows to find all the wiki pages linking to the given page name. For example, find all the pages linking to [[Special:WhatLinksHere/Help:Editing|this page]]
+* [[Special:PrefixIndex]] that allows to find all pages starting with the given prefix. For example, find all the pages in the [[Special:PrefixIndex/Template:|Template namespace]]
+
+== Minor edits ==
+
+A logged-in user can mark an edit as &quot;minor&quot;. Minor edits are generally spelling corrections, formatting, and minor rearrangement of text. Users may choose to ''hide'' minor edits when viewing Recent Changes.
+
+Marking a significant change as a minor edit is considered bad Wikiquette. If you have accidentally marked an edit as minor, make a dummy edit, verify that the &quot;&lt;small&gt;'''[&amp;nbsp;] This is a minor edit'''&lt;/small&gt;&quot; check-box is unchecked, and explain in the edit summary that the previous edit was not minor.
+
+== Other ==
+
+Other presentation ideas [[WikiPages|WikiPages]]
+
+{{languages | {{fr|Help:Editing/fr}} {{it|Help:Editing/it}} }}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Help:Editing/fr</title>
+    <ns>12</ns>
+    <id>2521</id>
+    <revision>
+      <id>133959</id>
+      <parentid>41742</parentid>
+      <timestamp>2014-12-27T16:18:50Z</timestamp>
+      <contributor>
+        <username>Mario52</username>
+        <id>1993</id>
+      </contributor>
+      <comment>/* Syntaxe colorée et délimitation du code */  Ajout de &quot;Eléments pliables&quot;</comment>
+      <sha1>drse7tat35cnljqdqrqt72xv5i6dyp5</sha1>
+      <text xml:space="preserve" bytes="19433">=Help:Editing/fr=
+__TOC__
+La [http://fr.wikipedia.org/wiki/Aide:Syntaxe version originale de cette page] se trouve sur Wikipedia.
+----
+
+Cette vue d'ensemble d'édition possède beaucoup d'exemples '''Wikitext'''. Vous pouvez laisser cette page ouverte dans une fenêtre distincte du navigateur, pour vous référencer lorsque vous faites des modifications dans les pages de notre wiki FreeCAD.&lt;br&gt;
+Attention pour avoir accès en écriture pour modifier des pages du Wiki, vous devez être [https://sourceforge.net/account/login.php inscrit] et vous devez demander l'autorisation sur le [https://sourceforge.net/apps/phpbb/free-cad/ forum] !
+&lt;br&gt;&lt;br&gt;
+C'est fait ? alors bienvenue dans le Wiki de '''[[File:FreeCAD05.svg|24px]]reeCAD'''.
+&lt;br&gt;
+== Editions de base ==
+;Débuter l'édition
+:Pour commencer à éditer une page MediaWiki, 
+:cliquez sur le lien '''{{KEY|Edit this page}}''' (ou juste '''{{KEY|edit}}''', si c'est une nouvelle page, ce sera '''{{KEY|Créer}}'''), situé à un de ses bords.
+&lt;br&gt;
+{| border=&quot;1&quot; align=&quot;left&quot;
+|[[File:Barre_D_Outils_Wiki_2.png]]
+|}
+{{clear}}&lt;br&gt;
+:Cela vous amène à la page d'édition 
+:c'est une page avec une zone ou vous pouvez éditer votre texte contenant le code [[wikipedia:wikitext|wikitext]]
+:ce code sera le code source modifiable à partir duquel le serveur (qui servira de compilateur) produira la page web finale. 
+:Au dessus de la fenêtre d'édition se trouve une barre d'outils[[File:Barre_D_Outils_Wiki.png‎]] tout comme dans un traitement de texte conventionnel.
+
+:Si vous voulez juste faire un test ou faire un brouillon, s'il vous plaît faites le dans [[FreeCADDocu:Sandbox|le bac à sable]], mais pas ici.&lt;br&gt;
+:Si la page est occupée, ne vous en souciez pas, vous pouvez créer cette page, la sauver, l’effacer, faire tout ce que vous voulez, elle est là pour ça.
+
+&lt;br&gt;
+;Tapez vos modifications
+:Vous pouvez simplement taper votre texte. Cependant, vous pouvez également utiliser le code du wiki (décrit dans la section suivante), pour établir des liens, et faire un formatage à votre idée juste pour donner une touche personnelle à votre contribution.
+:Vous pouvez aussi utiliser les liens des outils sous forme de {{KEY|[[Image:FreeCAD05.svg|16px|text-top=Workbench_KEY/fr|link=Workbench_KEY/fr]] [[Workbench_KEY/fr|Boutons]]}} ou, sous forme d'[[Image:FreeCAD05.svg|32px|text-top=Workbench_KEY/fr|link=Workbench_ICON/fr]] [[Workbench_ICON/fr|Icônes]].
+&lt;br&gt;
+;Résumez et visualisez vos changements avant l'enregistrement
+:Écrivez un résumé d'édition dans le petit champ ci-dessous l''''edit-box'''. Vous pouvez utiliser la fenêtre de dialogue &quot;Résumé&quot; pour décrire brièvement les changements effectués, le type de modification et si vous voulez suivre ou non la page modifiée, ces renseignements seront visibles lors d'une visualisation de l'historique de la page.
+:Lorsque vous avez terminé, cliquez sur '''{{KEY|Prévisualiser}}''' ou '''{{KEY|Show previeuw}}''' pour voir comment vos modifications s’afficheront '''avant''' de les rendre permanentes. Répétez le processus d''''édition/prévisualisation''' jusqu'à ce que vous soyez satisfait du résultat, puis, cliquez sur '''{{KEY|Publier}}''' et vos modifications seront immédiatement appliquées à l'article de manière définitive.
+&lt;br&gt;
+{| border=&quot;1&quot; align=&quot;left&quot;
+|[[File:Barre_D_Outils_Wiki_3.png]]
+|}
+{{clear}}&lt;br&gt;
+; Téléchargez des images
+:Vous pouvez aussi [[Special:Upload|importer vos images]], prises d'écran . . . à partir de la page, en bas à gauche &quot;'''Boîte à outils'''&quot;. IL vous sera demandé un nom de fichier et une brève description du fichier importé.
+{{clear}}&lt;br&gt;
+{| border=&quot;1&quot; align=&quot;left&quot;
+|[[File:Barre_D_Outils_Wiki_4.png]]
+|}
+
+{{clear}}
+&lt;br style=&quot;clear:all&quot; /&gt;
+=== Bases pour le formatage du texte ===
+{| {{prettytable}} width=&quot;100%&quot; border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!Ce que vous voulez voir
+!Ce que vous devez faire
+|-
+|
+Vous voulez voir le texte en italique ''italicize text'' vous devez entourer le texte par 2 apostrophes. 
+
+3 apostrophes pour le mettre en gras '''the text'''. 
+
+5 apostrophes pour voir le texte en italique et en gras 
+'''''the text'''''.
+
+(4 apostrophes pour voir le texte en gras et entre apostrophes -- there's just ''''one left over''''.)
+|&lt;pre&gt;
+You can ''italicize text'' by putting 2 
+apostrophes on each side. 
+
+3 apostrophes will bold '''the text'''. 
+
+5 apostrophes will bold and italicize 
+'''''the text'''''.
+
+(4 apostrophes don't do anything special 
+ -- there's just ''''one left over''''.)
+&lt;/pre&gt;
+|-
+|
+Un saut de ligne n'a aucun effet sur la mise en page. Mais laissez une ligne vide (pour éclaircir le texte par exemple).
+
+Commence un nouveau paragraphe.
+|&lt;pre&gt;
+A single Line
+has no effect
+on the layout.
+But an empty line
+
+starts a new paragraph.
+&lt;/pre&gt;
+|-
+|
+Vous voulez sauter une ligne (return)&lt;br /&gt;
+Vous voulez commencer un nouveau paragraphe.&lt;br /&gt;
+Utilisez cette balise.
+|&lt;pre&gt;
+You can break lines&lt;br /&gt;
+without a new paragraph.&lt;br /&gt;
+Please use this sparingly.
+&lt;/pre&gt;
+|-
+|
+Vous voulez &quot;signer&quot; votre commentaire sur la page: &lt;br /&gt;
+- Trois tildes affichent votre nom d'utilisateur: [[User:xorx|Dr. Schorsch]] &lt;br /&gt;
+- Quatre tildes affichent votre nom d'utilisateur plus date/time: [[User:xorx|Dr. Schorsch]] 20:55, 1 November 2006 (CET)&lt;br /&gt;
+- Cinq tildes affichent la date/time alone: 21:01, 1 November 2006 (CET)&lt;br /&gt;
+|&lt;pre&gt;
+You should &quot;sign&quot; your comments 
+on talk pages: &lt;br /&gt;
+- Three tildes gives your user
+name: ~~~ &lt;br /&gt;
+- Four tildes give your user 
+name plus date/time: ~~~~ &lt;br /&gt;
+- Five tildes gives the 
+date/time alone: ~~~~~ &lt;br /&gt;
+&lt;/pre&gt;
+|-
+|
+Vous devez utiliser &lt;b&gt;HTML tags&lt;/b&gt;, si vous voulez mettre une adresse HTML:
+
+Changer de fonte &lt;tt&gt;typewriter font&lt;/tt&gt;. La même police est généralement utilisée pour &lt;code&gt;computer code&lt;/code&gt;.
+
+&lt;strike&gt;Supprimer&lt;/strike&gt; ou &lt;u&gt;souligner&lt;/u&gt; le texte, ou écrivez &lt;span style=&quot;font-variant:small-caps&quot;&gt; en petit et majuscule&lt;/span&gt;.
+
+Exposant et Indice:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+
+Commentaire invisible dans la page (&amp;lt;!--  --&amp;gt;) n'apparaît que pendant l'édition (dans la fenêtre d'édition) de la page.
+&lt;!-- Note to editors: blah blah blah. --&gt;
+
+Si vous souhaitez faire des commentaires au public,
+vous devriez aller habituellement [[wikipedia:wikipedia:talk page|talk page]], quoi que ..
+|&lt;pre&gt;
+You can use &lt;b&gt;HTML tags&lt;/b&gt;,
+too, if you want. Some useful
+ways to use HTML:
+
+Put text in a &lt;tt&gt;typewriter
+font&lt;/tt&gt;. The same font is 
+generally used for &lt;code&gt;
+computer code&lt;/code&gt;.
+
+&lt;strike&gt;Strike out&lt;/strike&gt;
+or &lt;u&gt;underline&lt;/u&gt; text,
+or write it &lt;span style=
+&quot;font-variant:small-caps&quot;&gt;
+in small caps&lt;/span&gt;.
+
+Superscripts and subscripts:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+
+Invisible comments to editors (&amp;amp;lt;!-- --&amp;amp;gt;) 
+only appear while editing the page.
+&lt;!-- Note to editors: blah blah blah. --&gt;
+
+If you wish to make comments to the public, 
+you should usually go on the 
+[[wikipedia:wikipedia:talk page|talk page]], though.
+&lt;/pre&gt;
+|}
+
+Pour voir une liste de codes HTML à utiliser, allez sur [[Wikipedia:Help:HTML in wikitext|HTML in wikitext]]. Cependant, vous devez éviter le langage HTML, pour utiliser de préférence le '''Wikitexte''' lorsque c'est possible.
+
+=== Organiser votre travail ===
+{| {{prettytable}} width=&quot;100%&quot;  border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!Ce que vous voulez voir
+!Ce que vous devez faire
+|-
+|
+&lt;div style=&quot;font-size:150%;border-bottom:1px solid #000000;&quot;&gt;Section headings&lt;/div&gt;
+
+''Entête'' organisez votre travail en sections.
+Le software '''Wiki'''génére automatiquement le contenu comme ceci.
+
+&lt;div style=&quot;font-size:132%;font-weight:bold;&quot;&gt;Subsection&lt;/div&gt;
+À l'aide de plusieurs signes égal &quot; = &quot; créez un paragraphe.
+
+&lt;div style=&quot;font-size:116%;font-weight:bold;&quot;&gt;A smaller subsection&lt;/div&gt;
+
+Pour descendre de niveau, allez de deux à quatre signes égal.
+
+Commencez avec 2 signes égal pas 1, il est réservé pour le titre de la page &quot;tags H1&quot;.
+|&lt;pre&gt;
+== Sous sections ==
+en créant plusieurs signes égal vous créez des sous sections.
+
+=== Une petite sous section ===
+&lt;/pre&gt;
+|-
+|
+===Liens externes ===
+Vous voulez créer un '''lien''' cliquable sur une autre page.
+
+ici un lien sur la page nommée [[CompileOnUnix/fr]].
+Ne pas écrire [[compileonunix/fr]] mais
+[[CompileOnUnix/fr]] écrivez le correctement.
+|&lt;pre&gt;
+Here's a link to a page named [[CompileOnUnix/fr]].
+You can not say [[compileonunix/fr]] but
+[[CompileOnUnix/fr]]es and the link will
+show up correctly.
+&lt;/pre&gt;
+|-
+|
+Vous pouvez formater le lien.
+Exemple: ''[[CompileOnUnix/fr]]''.
+|&lt;pre&gt;
+You can put formatting around a link.
+Example: ''[[CompileOnUnix/fr]]''.
+&lt;/pre&gt;
+|-
+|
+La ''première lettre'' d'un article est automatiquement capitalisée, donc [[CompileOnUnix/fr]] est la même chose que [[compileOnUnix/fr]], capitalisez après la
+première lettre.
+|&lt;pre&gt;
+The ''first letter'' of articles is automatically
+capitalized, so [[CompileOnUnix]] goes to the same place
+as [[compileOnUnix]]. Capitalization matters after the
+first letter.
+&lt;/pre&gt;
+|-
+|
+[[The weather in Riga]] est une page qui n'existe pas. Vous devez la créer en cliquant sur le lien.
+|&lt;pre&gt;
+[[The weather in Riga]] is a page that doesn't exist
+yet. You could create it by clicking on the link.
+&lt;/pre&gt;
+|-
+|
+Vous pouvez vous lier à une section de la page par son titre:
+
+*[[List of cities by country#Morocco]].
+
+Si plusieurs sections ont le même titre, ajouter
+un nombre. [[#Example section 3]] va à la
+troisième section nommée &quot; Example section &quot;.
+|&lt;pre&gt;
+You can link to a page section by its title:
+
+*[[List of cities by country#Morocco]].
+
+If multiple sections have the same title, add
+a number. [[#Example section 3]] goes to the
+third section named &quot;Example section&quot;.
+&lt;/pre&gt;
+|-
+|
+Vous pouvez faire un lien qui pointe vers un endroit différent,
+avec un lien de canalisation. Mettre le lien
+cible en premier lieu, puis le caractère pipe &quot; | &quot;, puis
+le texte du lien.
+
+*[[CompileOnUnix/fr|Compile On Unix]]
+|&lt;pre&gt;
+You can make a link point to a different place
+with a piped link. Put the link
+target first, then the pipe character &quot;|&quot;, then
+the link text.
+
+*[[CompileOnUnix/fr|Compile On Unix]]
+&lt;/pre&gt;
+|-
+|
+Vous pouvez faire un lien vers Wikipédia en tapant: 
+[[wikipedia:Python (programming language)]]
+
+Vous pouvez faire un lien externe:
+http://www.nupedia.com
+
+Vous pouvez donner un titre: 
+[http://www.nupedia.com Nupedia]
+
+Ou un titre blanc:
+[http://www.nupedia.com]
+|
+&lt;pre&gt;
+You can make a link to Wikipedia by typing:
+[[wikipedia:Python (programming language)]]
+
+You can make an external link just by typing a URL:
+http://www.nupedia.com
+
+You can give it a title:
+[http://www.nupedia.com Nupedia]
+
+Or leave the title blank:
+[http://www.nupedia.com]
+&lt;/pre&gt;
+|-
+|
+Un lien vers un adresse e-mail, l'adresse fonctionne de la même façon:
+mailto:someone@domain.com ou 
+[mailto:someone@domain.com someone]
+|
+&lt;pre&gt;
+Linking to an e-mail address works the same way:
+mailto:someone@domain.com or 
+[mailto:someone@domain.com someone]
+&lt;/pre&gt;
+|-
+|
+Vous pouvez rediriger un utilisateur sur une autre page.
+|&lt;pre&gt;
+#REDIRECT [[Official position]]
+&lt;/pre&gt;
+|-
+|
+Le liens d'une catégorie n’apparaît pas en ligne
+mais plutôt en bas de page '' et Liste la page dans la page de la catégorie &quot;Help/fr&quot; ''.
+[[Category:Help/fr]]
+
+Ajouter un '''&quot; : &quot;''' supplémentaire au '' lien '' 
+sans pour cela le faire lister dans la page de la catégorie &quot;Help/fr&quot; :
+[[:Category:Help/fr]]
+|&lt;pre&gt;
+''Categeroy links'' do not show up in line
+but instead at page bottom ''and cause the page to be
+listed in the category.''
+[[Category:Help/fr]]
+
+Add an extra colon to ''link'' to a category in line
+without causing the page to be listed in the category:
+[[:Category:Help/fr]]
+&lt;/pre&gt;
+|}
+
+==Éléments pliables==
+
+===Élément pliable sur la page complète===
+
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot;&gt;
+===Clique sur &quot;afficher&quot; pour voir le code===
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot;&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+===Votre Titre===
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+&lt;/nowiki&gt;
+
+Votre texte et image [[Image:Base_ExampleCommandModel.png|16px]] FreeCAD.
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+===Elément pliable sur 500 pixels===
+
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot; style=&quot;width:500px&quot;&gt;
+===Cliquez sur &quot;afficher&quot; pour voir le code===
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot; style=&quot;width:500px&quot;&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+===Votre Titre===
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+&lt;/nowiki&gt;
+
+Votre texte et image [[Image:Base_ExampleCommandModel.png|16px]] FreeCAD.
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+==Syntaxe colorée et délimitation du code==
+
+Pour délimiter le code (créer un encadrement) d'une macro ou d'une procédure vous avez différentes solutions :
+
+'''1: Un espace entre le bord de la page et la première colonne du code.'''
+
+Exemple :
+
+Un espace a été ajouté à toutes les lignes
+
+ import math
+ from pivy import coin
+ cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+ rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+        self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+        self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+'''Pour les macros, cette méthode est déconseillée !''' l'utilisateur qui veut copier le code pour tester la macro est obligé de retirer cet espace au risque de créer des erreurs d'indentation à l'exécution du code.
+
+'''2: Les balises &lt;nowiki&gt;&lt;pre&gt; et &lt;/pre&gt;&lt;/nowiki&gt;'''
+
+Exemple :
+
+'''&lt;nowiki&gt;&lt;pre&gt;&lt;/nowiki&gt;'''
+&lt;pre&gt;
+import math
+from pivy import coin
+cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+       self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+       self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+&lt;/pre&gt;
+'''&lt;nowiki&gt;&lt;/pre&gt;&lt;/nowiki&gt;'''
+
+'''3: Les balises &lt;nowiki&gt;&lt;syntaxhighlight&gt; et &lt;/syntaxhighlight&gt;&lt;/nowiki&gt;'''
+
+Ces balises permettent de délimiter votre macro et de '''colorer la syntaxe''' du  code.
+
+Exemple:
+
+'''&lt;nowiki&gt;&lt;syntaxhighlight&gt;&lt;/nowiki&gt;'''
+&lt;syntaxhighlight&gt;
+import math
+from pivy import coin
+cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+       self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+       self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+&lt;/syntaxhighlight&gt;
+'''&lt;nowiki&gt;&lt;/syntaxhighlight&gt;&lt;/nowiki&gt;'''
+
+'''4: Les balises &lt;nowiki&gt;&lt;source lang=python&gt; et &lt;/source&gt;&lt;/nowiki&gt;'''
+
+Ces balises donnent un résulta identique que '''&lt;nowiki&gt;&lt;syntaxhighlight&gt;&lt;/nowiki&gt;''', mais la particularité de cette syntaxe est que vous pouvez avoir une coloration différente suivant le language de programmation utilisé.
+
+Options:
+
+*'''&lt;nowiki&gt;&lt;source lang=python&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=pascal&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=java&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=&lt;/nowiki&gt; ..........'''
+
+== Template (Modèles) et intégration de page(s) ==
+
+'''[https://fr.wikipedia.org/wiki/Aide:Mod%C3%A8le Templates (modèle)]''' sont des balises qui sont censées copier automatiquement des segments de wiki '''intégrés''' dans une page.
+Vous les ajoutez en mettant le nom du modèle (Template) entre '''&lt;nowiki&gt;{{double crochets}}&lt;/nowiki&gt;'''.
+Par défaut, les pages sont intégrées comme '''Template''' nom. Le '''nom''' est la partie du nom de la page devant le signe '''double-points''' ; par exemple, dans [[Help:Editing/fr]], '''Help''' est nom dans lequel la page '''Editing/fr''' se trouve.
+
+Il est également possible d'intégrer d'autres pages dans le nom par défaut en utilisant les '''&lt;nowiki&gt;{{ : double points et double crochets}}&lt;/nowiki&gt;'''.
+
+Il y a trois sortes de balises d'intégration qui permettent de contrôler comment l'intégration affectera les parties du Template (modèle) ou d'un article en Wikitexte.
+
+Ils déterminent comment sera le rendu du Wikitexte, soit dans son propre article, que nous appellerons &quot;'''ici'''&quot;, ou dans un autre article où il sera inclus, que nous appellerons &quot;'''là'''&quot;.
+
+* '''&lt;nowiki&gt;&lt;noinclude&gt;&lt;/nowiki&gt;''' et à la fin '''&lt;nowiki&gt;&lt;/noinclude&gt;&lt;/nowiki&gt;''' : '''le contenu''' ne sera pas rendu '''là''' et n'a pas d'effet '''ici'''.
+* '''&lt;nowiki&gt;&lt;includeonly&gt;&lt;/nowiki&gt;''' et à la fin '''&lt;nowiki&gt;&lt;/includeonly&gt;&lt;/nowiki&gt;''' : '''le contenu''' sera seulement '''là''', et ne sera pas rendu '''ici''' (comme '''invisible''' et rendu visible par le biais d’intégration).
+* '''&lt;nowiki&gt;&lt;onlyinclude&gt;&lt;/nowiki&gt;''' et à la fin '''&lt;nowiki&gt;&lt;/onlyinclude&gt;&lt;/nowiki&gt;''' : '''le contenu''' sera rendu '''ici''' et rendu '''là''', mais ne sera rendu '''là''' uniquement ce qui est entre les balises.
+
+Il peut y avoir plusieurs sections. De plus, les balises peuvent être imbriquées.
+
+''' Remarque''' : si une page est intégrée sans donner de résultat, il peut causer une  [https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Conventions_sur_les_cat%C3%A9gories catégorie] inadéquate. Toute intégration de page contiendra la même catégorie que la page originale. Entourez la catégorie avec les balises '''&lt;nowiki&gt;&lt;noinclude&gt;&lt;/nowiki&gt; ''' et à la fin '''&lt;nowiki&gt;&lt;/noinclude&gt;&lt;/nowiki&gt; ''' pour éviter une catégorisation incorrecte.
+
+{| {{prettytable}} width=&quot;100%&quot;  border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!Ceque vous voulez voir
+!Ce que vous devez faire
+|-
+|
+{{Transclusion demo}}
+|&lt;nowiki&gt;
+{{Transclusion demo}}
+&lt;/nowiki&gt;
+|-
+|
+{{Help:Transclusion demo}}
+|&lt;nowiki&gt;
+{{Help:Transclusion demo}}
+&lt;/nowiki&gt;
+|}
+
+== Pages Speciales ==
+
+Les pages spéciales sont des pages qui ne peuvent pas être modifiés, et sont générées par le moteur du wiki.
+Elles assurent des fonctions très utiles et sont dans l'espace de noms '''Speciaux'''.
+Un résumé de toutes les pages spéciales est disponible à partir de [[Special:SpecialPages]].
+
+Les lien directs vers les pages spéciales les plus fréquemment utilisées sont :
+
+* [[Special:WhatLinksHere]] qui permet de retrouver toutes les pages du wiki et donne un lien sur la page donnée.&lt;br&gt;Par exemple, pour trouver toutes les pages lié est à [[Special:WhatLinksHere/Help:Editing/fr|cette page]].
+* [[Special:PrefixIndex]] qui permet de trouver toutes les pages commençant par le préfixe donné.&lt;br&gt;Par exemple, trouver toutes les pages dans [[Special:PrefixIndex/Template:|Template namespace]]
+
+== Case à cocher &quot;Modification mineure&quot; ==
+
+Un utilisateur connecté peut marquer une edition comme {{KEY|[[Image:Case_a_cocher_O.png‎|16px]]  Modification mineure}}. Les modifications mineures sont généralement des corrections orthographiques, des formatages et réarrangement mineur du texte. Les utilisateurs peuvent choisir de cacher &quot; Modifications mineures &quot; lors de l'affichage des modifications récentes.
+
+Marquer un changement important comme une {{KEY|[[Image:Case_a_cocher_O.png‎|16px]]  Modification mineure}} est considéré comme une mauvaise Wikiquette. Si, vous avez coché accidentellement un edit comme &quot; Modification mineure &quot;, faire un edit factice, vérifiez que la case à cocher {{KEY|[[Image:Case_a_cocher_N.png‎|16px]]  Modification mineure}} est désactivée, et, expliquer sommairement, que l'édition précédente n'était pas une &quot; Modification mineure &quot;.
+
+== Autre ==
+
+D'autres idées de présentation [[WikiPages|WikiPages]]
+
+{{languages/fr | {{en|Help:Editing}} {{it|Help:Editing/it}} }}
+[[Category:Help/fr]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Help:Editing/it</title>
+    <ns>12</ns>
+    <id>3721</id>
+    <revision>
+      <id>134618</id>
+      <parentid>133960</parentid>
+      <timestamp>2014-12-28T10:44:46Z</timestamp>
+      <contributor>
+        <username>Renatorivo</username>
+        <id>1744</id>
+      </contributor>
+      <minor/>
+      <comment>/* Elementi pieghevoli */</comment>
+      <sha1>e21imzccis0kbpdvoggx20f1galfhj3</sha1>
+      <text xml:space="preserve" bytes="18125">Questa pagina è un riferimento veloce per i testi Wiki. La [http://en.wikipedia.org/wiki/Help:Wikitext_quick_reference versione originale] di questa pagina si trova su Wikipedia.
+----
+
+Questa panoramica sulla editazione contiene alcuni esempi di '''Wikitext'''.&lt;br&gt;Si può tenere questa pagina aperta in una finestra separata del browser e utilizzarla come riferimento durante le operazioni di modifica.&lt;br&gt;
+Per modificare le pagine Wiki è necessario [http://sourceforge.net registrarsi] e poi richiedere l'autorizzazione tramite il [http://forum.freecadweb.org/viewtopic.php?f=21&amp;t=2268 forum] !
+&lt;br&gt;&lt;br&gt;
+
+___TOC___
+
+== Editazione di base ==
+
+;Iniziare a modificare
+:Per iniziare a modificare una pagina di MediaWiki, fare clic sul link '''Edit this page''' (o solo '''edit''') presente in uno dei suoi bordi.&lt;br&gt; In questo modo si apre la '''Pagina di editazione''': una pagina con un blocco di testo contenente il '''[[wikipedia:wikitext|testo del wiki]]''', ovvero il codice sorgente modificabile dal quale il server produce la pagina web.&lt;br&gt;
+:Sopra alla finestra di modifica si trova una barra degli strumenti, come in un word processor convenzionale.&lt;br&gt;
+:Se la pagina è occupata, è possibile creare la pagina e poi salvarla come un normale testo.&lt;br&gt;
+:''Se si desidera fare solo un esperimento, si prega di farlo nel [[FreeCADDocu:Sandbox|sandbox]], non qui''.
+
+;Digitare le modifiche
+:Si può digitare semplicemente il testo.&lt;br&gt;Oppure si possono anche utlizzare i markup (marcatori) di base dei wiki (descritti nella sezione successiva) per creare dei collegamenti e produrre una formattazione che aggiunge valore al proprio contributo.&lt;br&gt;
+
+;Riassumere le modifiche
+:Scrivere un breve riassunto delle modifiche nel campo piccolo di sotto del box di compilazione.&lt;br&gt;È possibile sintetizzare la descrizione delle modifiche utilizzando, ad esempio, le voci della legenda.
+
+;Visualizzare l'anteprima delle modifiche
+:Al termine, fare clic su '''Show preview''' (Mostra anteprima) per vedere come si presenta la pagina dopo le modifiche e '''prima''' di renderle permanenti.&lt;br&gt;Ripetere il processo di modifica e di anteprima finché non si è soddisfatti del risultato, quindi fare clic su '''Save page'''. Le modifiche verranno immediatamente applicate all'articolo.
+:Nell'editazione delle pagine di documentazione di FreeCAD, è inoltre possibile dare ai collegamenti agli strumenti e agli ambienti la forma di  Pulsanti, oppure la forma di Icone. 
+
+;Caricare le immagini
+:È anche possibile [http://www.freecadweb.org/wiki/index.php?title=Special:Upload importare] delle immagini, delle schermate, . . . con gli strumenti della pagina disponibili in basso a sinistra. Viene richiesto un nome per il file e una breve descrizione del file importato.
+
+{{clear}}
+
+&lt;br style=&quot;clear:all&quot; /&gt;
+=== Formattazione dei caratteri  ===
+{| {{prettytable}} width=&quot;100%&quot; border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!Come viene visualizzato
+!Cosa si scrive
+|-
+|
+Si può ''enfatizzare il testo'' inserendolo 
+tra doppi apostrofi. 
+
+3 apostrofi producono un testo in '''grassetto'''. 
+
+5 apostrofi creano un testo in 
+'''''grassetto enfatizzato'''''.
+
+4 apostrofi non producono effetti particolari,
+aggiungono solo un ''''apostrofo per parte''''.
+|&lt;pre&gt;
+Si può ''enfatizzare il testo'' inserendolo 
+tra doppi apostrofi.  
+
+3 apostrofi producono un testo in '''grassetto'''. 
+
+5 apostrofi creano un testo in 
+'''''grassetto enfatizzato'''''.
+
+4 apostrofi non sono producono effetti particolari,
+aggiungono solo un ''''apostrofo per parte''''.
+&lt;/pre&gt;
+|-
+|
+Andare a capo non ha 
+alcun effetto
+sulla formattazione.
+Lasciando una linea vuota invece si inizia
+
+un nuovo paragrafo.
+|&lt;pre&gt;
+Andare a capo non ha 
+alcun effetto
+sulla formattazione.
+Lasciando una riga vuota invece si inizia
+
+un nuovo paragrafo.
+&lt;/pre&gt;
+|-
+|
+Si può andare a capo&lt;br /&gt;
+senza iniziare un nuovo paragrafo.&lt;br /&gt;
+utilizzando il tag HTML &lt;br&gt;.
+|&lt;pre&gt;
+Si può andare a capo&lt;br /&gt;
+senza iniziare un nuovo paragrafo.&lt;br /&gt;
+utilizzando il tag HTML &lt;br&gt;.
+&lt;/pre&gt;
+|-
+|
+Si dovrebbe &quot;firmare&quot; ogni commento aggiunto 
+ad una pagina di discussione: &lt;br /&gt;
+- tre tilde per il proprio nome utente: [[User:xorx|Dr. Schorsch]] &lt;br /&gt;
+- quattro per il nome utente più l'ora e la data: [[User:xorx|Dr. Schorsch]] 20:55, 1 November 2006 (CET)&lt;br /&gt;
+- cinque tilde per indicare solo l'ora e la data: 21:01, 1 November 2006 (CET)&lt;br /&gt;
+|&lt;pre&gt;
+Si dovrebbe &quot;firmare&quot; ogni commento aggiunto 
+ad una pagina di discussione: &lt;br /&gt;
+- tre tilde per il proprio nome utente: ~~~ &lt;br /&gt;
+- quattro per il nome utente più l'ora e la data: ~~~~ &lt;br /&gt;
+- cinque tilde per indicare solo l'ora e la data: ~~~~~ &lt;br /&gt;
+&lt;/pre&gt;
+|-
+|
+È anche possibile utilizzare i &lt;b&gt;tag HTML&lt;/b&gt;.&lt;br&gt;
+Alcuni esempi su come usare i tag HTML:
+
+Usare un &lt;tt&gt;font typewriter&lt;/tt&gt;.
+Questo font è generalmente usato anche
+per le &lt;code&gt;righe di codice&lt;/code&gt;.
+
+&lt;strike&gt;Barrare&lt;/strike&gt; oppure &lt;u&gt;sottolineare&lt;/u&gt; un testo,
+o scrivere in &lt;span style=&quot;font-variant:small-caps&quot;&gt;
+maiuscoletto&lt;/span&gt;.
+
+Apice e pedice:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+
+Commenti nascosti (&amp;lt;!-- --&amp;gt;) 
+visibili solo quando si edita la pagina.
+&lt;!-- Nota dell'autore: blah blah blah. --&gt;
+
+I commenti pubblici, di solito si fanno 
+nella [[wikipedia:wikipedia:talk page|talk page]].
+|&lt;pre&gt;
+È anche possibile utilizzare i &lt;b&gt;tag HTML&lt;/b&gt;.
+Alcuni modi per usare i tag HTML:
+
+Usare un &lt;tt&gt;font typewriter&lt;/tt&gt;.
+Questo font è generalmente usato anche
+per le &lt;code&gt;righe di codice&lt;/code&gt;.
+
+&lt;strike&gt;Barrare&lt;/strike&gt; oppure &lt;u&gt;sottolineare&lt;/u&gt; un testo,
+o scrivere in &lt;span style=&quot;font-variant:small-caps&quot;&gt;
+maiuscoletto&lt;/span&gt;.
+
+Apice e pedice:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+
+Commenti nascosti (&amp;lt;!-- --&amp;gt;) 
+visibili solo quando si edita la pagina.
+&lt;!-- Nota dell'autore: blah blah blah. --&gt;
+
+I commenti pubblici, di solito si fanno 
+nella [[wikipedia:wikipedia:talk page|talk page]].
+&lt;/pre&gt;
+|}
+
+Per un elenco dei tag HTML consentiti, vedere [[Wikipedia:Help:HTML in wikitext|HTML in wikitext]].&lt;br&gt;Quando è possibile, si dovrebbe evitare di usare le etchette HTML e preferire i marcatori Wiki.
+
+=== Organizzare i testi ===
+{| {{prettytable}} width=&quot;100%&quot;  border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!Come viene visualizzato
+!Cosa si scrive
+|-
+|
+&lt;div style=&quot;font-size:150%;border-bottom:1px solid #000000;&quot;&gt;Intestazione delle sezioni&lt;/div&gt;
+
+Le ''Intestazioni'' organizzano i testi in sezioni.&lt;br&gt;Utilizzando le intestazioni il software Wiki può generare automaticamente una tabella dei contenuti.
+
+&lt;div style=&quot;font-size:132%;font-weight:bold;&quot;&gt;Sottosezione&lt;/div&gt;
+L'utilizzo del segno di uguale crea una sottosezione.
+
+&lt;div style=&quot;font-size:116%;font-weight:bold;&quot;&gt;Una sotto-sottosezione&lt;/div&gt;
+
+Non saltare i livelli, non passare da 2 a 4 segni di uguale.
+
+Iniziare con 2 segni di uguale, non da 1, in quanto 1 segno crea il tag H1, che dovrebbe essere riservato per il titolo della pagina.
+|&lt;pre&gt;
+== Sottosezione ==
+L'utilizzo del segno di uguale crea una sottosezione.
+
+=== Una sotto-sottosezione ===
+&lt;/pre&gt;
+|-
+|
+===Collegamenti esterni===
+Spesso si desidera creare un ''link'' cliccabile ad altre pagine.
+
+Ecco un link a una pagina denominata [[CompileOnUnix]].&lt;br&gt;
+Non si può usare [[compileonunix]], ma si deve scrivere
+correttamente [[CompileOnUnix]].
+|&lt;pre&gt;
+Ecco un link a una pagina denominata [[CompileOnUnix]].&lt;br&gt;
+Non si può usare [[compileonunix]], ma si deve scrivere
+correttamente [[CompileOnUnix]].
+&lt;/pre&gt;
+|-
+|
+Si può aggiungere una formattazione del link. 
+Esempio: ''[[CompileOnUnix]]''.
+|&lt;pre&gt;
+Si può aggiungere una formattazione del link. 
+Esempio: ''[[CompileOnUnix]]''.
+&lt;/pre&gt;
+|-
+|
+Il ''primo carattere'' del link diventa automaticamente
+maiuscolo.&lt;br&gt;Quindi  [[compileOnUnix]] indirizza nello
+stesso posto di [[CompileOnUnix]]. 
+|&lt;pre&gt;
+Il ''primo carattere'' del link diventa automaticamente
+maiuscolo.&lt;br&gt;Quindi  [[compileOnUnix]] indirizza nello
+stesso posto di [[CompileOnUnix]].  
+&lt;/pre&gt;
+|-
+|
+[[The weather in Riga]] è una pagina che non esiste
+ancora. Si può crearla, cliccando sul link.
+|&lt;pre&gt;
+[[The weather in Riga]] è una pagina che non esiste
+ancora. Si può crearla, cliccando sul link.
+&lt;/pre&gt;
+|-
+|
+È possibile creare un link a una sezione della pagina
+in base al suo titolo:
+
+*[[List of cities by country#Morocco]].
+
+Se più sezioni hanno lo stesso titolo, aggiungere
+un numero. [[#Sezione esempio 3]] va alla
+terza sezione denominata &quot;Sezione esempio&quot;.
+|&lt;pre&gt;
+È possibile creare un link a una sezione della pagina
+in base al suo titolo:
+
+*[[List of cities by country#Morocco]].
+
+Se più sezioni hanno lo stesso titolo, aggiungere
+un numero. [[#Sezione esempio 3]] va alla
+terza sezione denominata &quot;Sezione esempio&quot;.
+&lt;/pre&gt;
+|-
+|
+È possibile fare un collegamento allo stesso luogo usando 
+un nome diverso con un piped link (link conduttore).&lt;br&gt;
+Mettere prima il link obiettivo, poi il carattere pipe &quot;|&quot;,
+quindi il testo del link.
+
+*[[CompileOnUnix/it|Compilare in Unix]]
+|&lt;pre&gt;
+È possibile fare un collegamento allo stesso luogo usando 
+un nome diverso con un piped link (link conduttore).&lt;br&gt;
+Mettere prima il link obiettivo, poi il carattere pipe &quot;|&quot;,
+quindi il testo del link.
+
+*[[CompileOnUnix/it|Compilare in Unix]]
+&lt;/pre&gt;
+|-
+|
+È possibile creare un link a Wikipedia digitando:
+[[wikipedia:Python (programming language)]]
+
+Si può creare un link esterno  digitando un URL:
+http://www.nupedia.com
+
+Si può assegnare un titolo:
+[http://www.nupedia.com Nupedia]
+
+Oppure, lasciare vuoto il titolo:
+[http://www.nupedia.com]
+|
+&lt;pre&gt;
+È possibile creare un link a Wikipedia digitando:
+[[wikipedia:Python (programming language)]]
+
+Si può creare un link esterno digitando un URL:
+http://www.nupedia.com
+
+Si può assegnare un titolo:
+[http://www.nupedia.com Nupedia]
+
+Oppure, lasciare vuoto il titolo:
+[http://www.nupedia.com]
+&lt;/pre&gt;
+|-
+|
+Il link a un indirizzo e-mail funziona allo stesso modo:
+mailto:someone@domain.com oppure 
+[mailto:someone@domain.com someone]
+|
+&lt;pre&gt;
+Il link a un indirizzo e-mail funziona allo stesso modo:
+mailto:someone@domain.com oppure 
+[mailto:someone@domain.com someone]
+&lt;/pre&gt;
+|-
+|
+È possibile reindirizzare l'utente a un'altra pagina.
+|&lt;pre&gt;
+#REDIRECT [[Posizione ufficiale]]
+&lt;/pre&gt;
+|-
+|
+I link ''Categoria'' non appaiono in linea, ma a fondo
+pagina e inseriscono ''la pagina nella categoria''.
+[[Category:Help/it]]
+
+Aggiungere un &quot; : &quot; a un ''link'' Categoria per mostrare
+il collegamento in linea senza che la pagina stessa venga&lt;br&gt;
+inclusa nella categoria:
+[[:Category:Help/it]]
+|&lt;pre&gt;
+I link ''Categoria'' non appaiono in linea, ma a fondo
+pagina e inseriscono ''la pagina nella categoria''.
+[[Category:Help/it]]
+
+Aggiungere un &quot; : &quot; a un ''link'' Categoria per mostrare
+il collegamento in linea senza che la pagina stessa venga&lt;br&gt;
+inclusa nella categoria:
+[[:Category:Help/it]]
+&lt;/pre&gt;
+|}
+
+==Elementi espandibili==
+
+===Elemento espandibile pagina completa===
+
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot;&gt;
+===Clicca per vedere il codice===
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot;&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+===Vostro Titolo===
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+&lt;/nowiki&gt;
+
+Vostro testo è immagine [[Image:Base_ExampleCommandModel.png|16px]] FreeCAD.
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+===Elemento espandibile 500 pixels===
+
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot; style=&quot;width:500px&quot;&gt;
+===Clicca per vedere il codice===
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible mw-collapsed toccolours&quot; style=&quot;width:500px&quot;&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+===Vostro Titolo===
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;div class=&quot;mw-collapsible-content&quot;&gt;
+&lt;/nowiki&gt;
+
+Vostro testo è immagine [[Image:Base_ExampleCommandModel.png|16px]] FreeCAD.
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;nowiki&gt;
+&lt;/div&gt;
+&lt;/nowiki&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+==Sintassi colorata e delimitazione del codice==
+
+Per delimitare il codice (creazione di un quadro) una macro o una routine abbiamo diverse soluzioni :
+
+'''1: Uno spazio tra il bordo della pagina e la prima colonna del codice.'''
+
+Esempio :
+
+Uno spazio è stato aggiunto a tutte le linee
+
+ import math
+ from pivy import coin
+ cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+ rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+        self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+        self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+'''Per le macro, questo metodo è deprecato !''' l'utente che vuole copiare il codice per testare la macro è obbligato a rimuovere questo spazio con il rischio di creare errori di indentation per l'esecuzione del codice.
+
+'''2: I Tag &lt;nowiki&gt;&lt;pre&gt; è &lt;/pre&gt;&lt;/nowiki&gt;'''
+
+Esempio :
+
+'''&lt;nowiki&gt;&lt;pre&gt;&lt;/nowiki&gt;'''
+&lt;pre&gt;
+import math
+from pivy import coin
+cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+       self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+       self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+&lt;/pre&gt;
+'''&lt;nowiki&gt;&lt;/pre&gt;&lt;/nowiki&gt;'''
+
+'''3: I Tag &lt;nowiki&gt;&lt;syntaxhighlight&gt; è &lt;/syntaxhighlight&gt;&lt;/nowiki&gt;'''
+
+Questi Tag sono usati per delimitare le macro e ''''colorare le sintassi''' del codice.
+
+Esempio :
+
+'''&lt;nowiki&gt;&lt;syntaxhighlight&gt;&lt;/nowiki&gt;'''
+&lt;syntaxhighlight&gt;
+import math
+from pivy import coin
+cam = Gui.ActiveDocument.ActiveView.getCameraNode()
+rot.setValue(coin.SbVec3f(0,0,1),math.pi/2)
+       self.lineEdit_1 = QtGui.QLineEdit(self.centralWidget)
+       self.lineEdit_1.setGeometry(QtCore.QRect(320, 30, 151, 22))
+&lt;/syntaxhighlight&gt;
+'''&lt;nowiki&gt;&lt;/syntaxhighlight&gt;&lt;/nowiki&gt;'''
+
+'''4: I Tag &lt;nowiki&gt;&lt;source lang=python&gt; è &lt;/source&gt;&lt;/nowiki&gt;'''
+
+Questo tag dà un risultato colorato lo stesso che '''&lt;nowiki&gt;&lt;syntaxhighlight&gt;&lt;/nowiki&gt;''', ma la particolarità di questa sintassi è che si può avere una colorazione diversa a seconda del linguaggio di programmazione usato.
+
+Optiones:
+
+*'''&lt;nowiki&gt;&lt;source lang=python&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=pascal&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=java&gt;&lt;/nowiki&gt;'''
+*'''&lt;nowiki&gt;&lt;source lang=&lt;/nowiki&gt; ..........'''
+
+== I modelli e le pagine inserite automaticamente ==
+
+Le [http://en.wikipedia.org/wiki/Help:Template Templates] (i modelli) sono porzioni del wiki destinate ad essere copiate automaticamente e inserite (transcluse) in una pagina.
+Vengono transcluse inserendo il nome del modello tra le &lt;nowiki&gt;{{doppie parentesi graffe}}&lt;/nowiki&gt;.
+Per impostazione predefinita, le pagine sono inserite con il namespace '''Template'''. Il namespace è la parte del nome della pagina prima dei due punti, per esempio, in [[Help:Editing]], '''Help''' è il namespace in cui si trova la pagina '''Editing'''.
+
+È anche possibile transcludere altre pagine nel namespace di default utilizzando &lt;nowiki&gt;{{:doppie parentesi graffe e due punti}}&lt;/nowiki&gt;.
+
+Ci sono tre coppie di marcatori di inclusione che possono essere utilizzati per controllare una inclusione di parti di un modello o di un articolo nel wikitesto.
+Essi stabiliscono se il wikitesto viene restituito o meno, sia nel suo proprio articolo, che chiameremo &quot;'''qui'''&quot;, sia in un altro articolo in cui è transcluso, che chiameremo &quot;'''là'''&quot;.
+* '''&lt;nowiki&gt;&lt;noinclude&gt;&lt;/nowiki&gt;''' contenuto '''&lt;nowiki&gt;&lt;/noinclude&gt;&lt;/nowiki&gt;''': il contenuto non viene reso là. Questi tag non hanno alcun effetto qui.
+* '''&lt;nowiki&gt;&lt;includeonly&gt;&lt;/nowiki&gt;''' contenuto '''&lt;nowiki&gt;&lt;/includeonly&gt;&lt;/nowiki&gt;''': il contenuto viene reso solo là, e  non viene reso qui (come ''inchiostro invisibile'' reso visibile per mezzo della inclusione).
+* '''&lt;nowiki&gt;&lt;onlyinclude&gt;&lt;/nowiki&gt;''' contenuto '''&lt;nowiki&gt;&lt;/onlyinclude&gt;&lt;/nowiki&gt;''': il contenuto viene reso qui e viene reso là, ma là viene reso solo che è compreso tra questi tag..
+Ci possono essere diverse sezioni. Inoltre, possono essere nidificate.
+
+'''Notare''': se una pagina è transclusa senza nessun marcatore di inclusione, può causare un errore involontario di  [http://en.wikipedia.org/wiki/Wikipedia:Categorization categorizzazione]. Ogni pagina transclusa conterrà la stessa categoria della pagina originale. Inglobare i marcatori della cotegoria con i tag  '''&lt;nowiki&gt;&lt;noinclude&gt;&lt;/nowiki&gt;''' e '''&lt;nowiki&gt;&lt;/noinclude&gt;&lt;/nowiki&gt;''' per prevenire un errore di categorizzazione.
+
+{| {{prettytable}} width=&quot;100%&quot;  border=&quot;1&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;
+|-
+!Come appare
+!Come si scrive
+|-
+|
+{{Transclusion demo}}
+|&lt;pre&gt;
+{{Transclusion demo}}
+&lt;/pre&gt;
+|-
+|
+{{Help:Transclusion demo}}
+|&lt;pre&gt;
+{{Help:Transclusion demo}}
+&lt;/pre&gt;
+|}
+
+== Pagine Speciali ==
+Le Pagine Speciali sono pagine che non possono essere modificate, ma che sono generate dal motore del wiki.
+Esse forniscono funzioni molto utili, e si trovano nel namespace '''Special'''.
+Una sommario di tutte le pagine speciali è disponibile in [[Special:SpecialPages]].
+
+Link diretti a pagine speciali di uso frequente sono:
+
+* [[Special:WhatLinksHere]] che permette di trovare tutte le pagine del wiki che si collegano a una data pagina. Per esempio, trovare tutte le pagine che si collegano al [[Special:WhatLinksHere/Help:Editing/it|questa pagina]]
+* [[Special:PrefixIndex]] che permette di trovare tutte le pagine che iniziano con il prefisso specificato. Per esempio, trovare tutte le pagine in [[Special:PrefixIndex/Template:|Template namespace]]
+
+
+== Modifiche minori ==
+
+Un utente connesso in modalità di editazione può contrassegnare una modifica come &quot;minore&quot;.&lt;br&gt;Le modifiche minori sono generalmente correzioni di ortografia, formattazione e riarrangiamento minore del testo.&lt;br&gt;Gli utenti possono scegliere di ''nascondere'' le modifiche minori durante la visualizzazione delle ''Modifiche recenti''.
+
+Contrassegnare un cambiamento significativo come modifica minore non è conforme alle regole Wikiquette.&lt;br&gt;Se succede di segnare accidentalmente una modifica come minore, fare una modifica fittizia, verificare che la casella &quot;&lt;small&gt;'''[&amp;nbsp;] This is a minor edit'''&lt;/small&gt;&quot; sia deselezionata, e spiegare nel sommario della modifica che la modifica precedente non era minore.
+
+== Altro ==
+
+Altre informazioni e idee sull'editazione del wiki si trovano in [[WikiPages|WikiPages]]
+
+
+{{languages/it | {{en|Help:Editing}} {{fr|Help:Editing/fr}} }}
+[[Category:Help/it]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Help:Transclusion demo</title>
+    <ns>12</ns>
+    <id>10898</id>
+    <revision>
+      <id>41169</id>
+      <timestamp>2013-09-09T21:30:20Z</timestamp>
+      <contributor>
+        <username>Ediloren</username>
+        <id>3292</id>
+      </contributor>
+      <comment>Created page with &quot;This transclusion demo is a little bit of text from the page [[Help:Transclusion demo]] to be included into any file.&quot;</comment>
+      <sha1>ef2xydlj4tyhmrwzy2fiahdruv7u0vo</sha1>
+      <text xml:space="preserve" bytes="117">This transclusion demo is a little bit of text from the page [[Help:Transclusion demo]] to be included into any file.</text>
+    </revision>
+  </page>
+</mediawiki>

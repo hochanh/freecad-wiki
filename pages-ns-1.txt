@@ -1,0 +1,42 @@
+
+Talk:About FreeCAD
+Talk:Artwork
+Talk:Basic modeling tutorial
+Talk:CompileOnUnix
+Talk:DebianScript
+Talk:Download
+Talk:Draft Array
+Talk:Draft Module
+Talk:Draft Module/cn
+Talk:Draft SelectPlane
+Talk:Drawing templates
+Talk:Engine Block Tutorial
+Talk:Esercitazioni
+Talk:Extra python modules
+Talk:FreeCAD API
+Talk:Getting Started
+Talk:Getting started
+Talk:Helki
+Talk:Install on Windows
+Talk:Macro Corner shapes wizard
+Talk:Main Page
+Talk:Main Page/de
+Talk:Mesh Scripting
+Talk:Module Creation
+Talk:Name Discussion
+Talk:Online Help Toc/pl
+Talk:OpenSCAD Module
+Talk:Part Loft Technical Details
+Talk:Part Mirror
+Talk:Part Module
+Talk:Part Workbench/de
+Talk:Placement
+Talk:Power users hub
+Talk:Screenshots
+Talk:Scripting
+Talk:Std Duplicate Selection
+Talk:Svg Namespace
+Talk:Third Party Tools
+Talk:Topological data scripting
+Talk:User hub
+Talk:Workbenches/de

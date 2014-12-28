@@ -1,0 +1,502 @@
+
+Template:APIClass
+Template:APIClass/es
+Template:APIClass/it
+Template:APIClass/jp
+Template:APIFunction
+Template:APIFunction/es
+Template:APIFunction/fr
+Template:APIFunction/it
+Template:APIFunction/jp
+Template:APIProperty
+Template:APIProperty/es
+Template:APIProperty/fr
+Template:APIProperty/it
+Template:APIProperty/jp
+Template:About
+Template:About/cn
+Template:About/cs
+Template:About/es
+Template:About/fr
+Template:About/id
+Template:About/it
+Template:About/jp
+Template:About/pl
+Template:About/pt-br
+Template:About/ro
+Template:About/ru
+Template:About/tr
+Template:About/zh
+Template:About FreeCAD/jp
+Template:Actus FreeCAD/fr
+Template:Anchor
+Template:ArchStrumentiConversione
+Template:Arch Tools
+Template:Arch Tools/cs
+Template:Arch Tools/de
+Template:Arch Tools/es
+Template:Arch Tools/fr
+Template:Arch Tools/it
+Template:Arch Tools/jp
+Template:Arch Tools/ru
+Template:Arch Tools/sv
+Template:ArchitetturaStrumenti
+Template:Blender Navigation
+Template:Blender Navigation/cs
+Template:Blender Navigation/de
+Template:Blender Navigation/es
+Template:Blender Navigation/fr
+Template:Blender Navigation/it
+Template:Blender Navigation/jp
+Template:Blender Navigation/ro
+Template:Booksbox
+Template:Booksbox/es
+Template:Booksbox/fr
+Template:CAD Navigation
+Template:CAD Navigation/cn
+Template:CAD Navigation/cs
+Template:CAD Navigation/de
+Template:CAD Navigation/es
+Template:CAD Navigation/fr
+Template:CAD Navigation/it
+Template:CAD Navigation/jp
+Template:CAD Navigation/pt
+Template:CAD Navigation/ro
+Template:CAD Navigation/sv
+Template:Choice
+Template:Choice/it
+Template:Clear
+Template:Clear/it
+Template:Click
+Template:Click/it
+Template:Cn
+Template:Code
+Template:Code/it
+Template:Collapsible
+Template:CompactTOC
+Template:CompactTOC/it
+Template:Cs
+Template:DASH
+Template:DASH/it
+Template:De
+Template:Defn
+Template:Defn/it
+Template:Delete
+Template:Delete/it
+Template:Devdocnavi
+Template:Devdocnavi/it
+Template:Disambig
+Template:Disambig/it
+Template:Docnav
+Template:Docnav/cn
+Template:Docnav/cs
+Template:Docnav/de
+Template:Docnav/es
+Template:Docnav/fr
+Template:Docnav/id
+Template:Docnav/it
+Template:Docnav/ja
+Template:Docnav/jp
+Template:Docnav/pl
+Template:Docnav/pt
+Template:Docnav/pt-br
+Template:Docnav/ro
+Template:Docnav/ru
+Template:Docnav/se
+Template:Docnav/sv
+Template:Docnav/tr
+Template:Docnav/zh
+Template:Docnav tr
+Template:Docnavde
+Template:Download
+Template:DownloadMacStable
+Template:DownloadMacStable/es
+Template:DownloadMacStable/it
+Template:DownloadUnixStable
+Template:DownloadUnixStable/es
+Template:DownloadUnixStable/it
+Template:DownloadWindowsStable
+Template:DownloadWindowsStable/es
+Template:DownloadWindowsStable/it
+Template:Downloads
+Template:Downloads/de
+Template:Downloads/es
+Template:Downloads/fr
+Template:Downloads/ru
+Template:DraftLesOutilsFilaires
+Template:Draft Tools
+Template:Draft Tools/cn
+Template:Draft Tools/cs
+Template:Draft Tools/de
+Template:Draft Tools/es
+Template:Draft Tools/fr
+Template:Draft Tools/it
+Template:Draft Tools/jp
+Template:Draft Tools/pl
+Template:Draft Tools/pt
+Template:Draft Tools/pt-br
+Template:Draft Tools/ro
+Template:Draft Tools/ru
+Template:Draft Tools/se
+Template:Draft Tools/sv
+Template:Draft Tools/tr
+Template:Drawing Icon
+Template:Drawing Tools
+Template:Drawing Tools/cn
+Template:Drawing Tools/cs
+Template:Drawing Tools/de
+Template:Drawing Tools/es
+Template:Drawing Tools/fr
+Template:Drawing Tools/it
+Template:Drawing Tools/jp
+Template:Drawing Tools/pl
+Template:Drawing Tools/ro
+Template:Drawing Tools/ru
+Template:Drawing Tools/se
+Template:Drawing Tools/sv
+Template:Emphasis
+Template:En
+Template:Es
+Template:FALSE
+Template:FALSE/it
+Template:FEM Tools
+Template:FEM Tools/it
+Template:Facebookbox
+Template:Facebookbox/it
+Template:Fake heading
+Template:Fake heading/it
+Template:Feedsbox
+Template:Feedsbox/it
+Template:Fi
+Template:FileName
+Template:FileName/it
+Template:Fr
+Template:FreeCAD News
+Template:FreeCAD News/en
+Template:FreeCAD News/es
+Template:FreeCAD News/fr
+Template:FreeCAD News/it
+Template:FreeCAD News/jp
+Template:Gloss
+Template:Gloss/it
+Template:Glossend
+Template:Glossend/it
+Template:GuiCommand
+Template:GuiCommand/cs
+Template:GuiCommand/de
+Template:GuiCommand/en
+Template:GuiCommand/es
+Template:GuiCommand/fr
+Template:GuiCommand/it
+Template:GuiCommand/jp
+Template:GuiCommand/pl
+Template:GuiCommand/pt
+Template:GuiCommand/pt-br
+Template:GuiCommand/ro
+Template:GuiCommand/ru
+Template:GuiCommand/se
+Template:GuiCommand/sv
+Template:GuiCommand/tr
+Template:Hello
+Template:Hello/it
+Template:Hidden begin
+Template:Hidden begin/it
+Template:Hidden end
+Template:Id
+Template:Information
+Template:Information/it
+Template:Inventor Navigation
+Template:Inventor Navigation/cs
+Template:Inventor Navigation/de
+Template:Inventor Navigation/es
+Template:Inventor Navigation/fr
+Template:Inventor Navigation/it
+Template:Inventor Navigation/jp
+Template:Inventor Navigation/ro
+Template:It
+Template:Jp
+Template:KEY
+Template:KEY/it
+Template:Languages
+Template:Languages-top
+Template:Languages/Ru
+Template:Languages/cn
+Template:Languages/cs
+Template:Languages/de
+Template:Languages/es
+Template:Languages/fi
+Template:Languages/fr
+Template:Languages/id
+Template:Languages/it
+Template:Languages/jp
+Template:Languages/pl
+Template:Languages/pt
+Template:Languages/ro
+Template:Languages/ru
+Template:Languages/se
+Template:Languages/sv
+Template:Languages/tr
+Template:LesAutresOutilsDEsquisse
+Template:LesOutilsArchitecturaux
+Template:LesOutilsContraintesDEsquisse
+Template:LesOutilsDEsquisses
+Template:LesOutilsDeConstructionPartDesign
+Template:LesOutilsDeModificationsArchitecturaux
+Template:LesOutilsDeModificationsPart
+Template:LesOutilsDeModificationsPartDesign
+Template:LesOutilsDeTransformationsDraft
+Template:LesOutilsDeTransformationsPartDesign
+Template:LesOutilsDraft
+Template:LesOutilsPART
+Template:LesOutilsPlot
+Template:LesOutilsPlot/fr
+Template:LesOutilsPlot/it
+Template:Linksbox
+Template:Linksbox/fr
+Template:Linksbox/it
+Template:ListeDeiComandi
+Template:Macro
+Template:Macro/cs
+Template:Macro/de
+Template:Macro/es
+Template:Macro/fr
+Template:Macro/it
+Template:Macro/sv
+Template:Mantisbox
+Template:Mantisbox/it
+Template:Menu
+Template:Menu/de
+Template:Menu/es
+Template:Menu/fr
+Template:Menu/it
+Template:Menu/ru
+Template:Menu/se
+Template:MenuCommand
+Template:MenuCommand/it
+Template:MenuMacro
+Template:MenuMacro/it
+Template:Message
+Template:Message/it
+Template:Navigation menu
+Template:Navigation menu/it
+Template:Newsbox
+Template:Newsbox/es
+Template:Newsbox/fr
+Template:Newsbox/it
+Template:Note
+Template:Note/it
+Template:OngletTache
+Template:OpenSCAD Tools
+Template:OpenSCAD Tools/es
+Template:OpenSCAD Tools/fr
+Template:OpenSCAD Tools/it
+Template:Optional
+Template:Optional/it
+Template:Parameter
+Template:Parameter/it
+Template:PartBooleanProprietes/fr
+Template:PartBooleanProprietes/it
+Template:PartBooleansTools/it
+Template:PartDesignOngletVue/fr
+Template:PartDesignStrumentiCostruzione/it
+Template:PartDesignTransform/it
+Template:PartDesign Extras
+Template:PartDesign Extras/cs
+Template:PartDesign Extras/de
+Template:PartDesign Extras/en
+Template:PartDesign Extras/es
+Template:PartDesign Extras/fr
+Template:PartDesign Extras/it
+Template:PartDesign Extras/jp
+Template:PartDesign Placement
+Template:PartDesign Placement/cs
+Template:PartDesign Placement/de
+Template:PartDesign Placement/es
+Template:PartDesign Placement/it
+Template:PartDesign Placement/jp
+Template:PartDesign Tools
+Template:PartDesign Tools/cn
+Template:PartDesign Tools/cs
+Template:PartDesign Tools/de
+Template:PartDesign Tools/es
+Template:PartDesign Tools/fr
+Template:PartDesign Tools/it
+Template:PartDesign Tools/jp
+Template:PartModificationsTools/it
+Template:PartOngletVue/fr
+Template:PartOngletVue 2/fr
+Template:PartParametricTools/it
+Template:PartSchedaVista/it
+Template:PartSchedaVista2/it
+Template:Part Cut
+Template:Part Fuse
+Template:Part Revolve
+Template:Part Tools
+Template:Part Tools/cn
+Template:Part Tools/cs
+Template:Part Tools/de
+Template:Part Tools/es
+Template:Part Tools/fr
+Template:Part Tools/it
+Template:Part Tools/jp
+Template:Part Tools/pl
+Template:Part Tools/ro
+Template:Part Tools/ru
+Template:Part Tools/se
+Template:Part Tools/sv
+Template:Pl
+Template:PlotTools/it
+Template:Powerdocnavi
+Template:Powerdocnavi/it
+Template:Prettytable
+Template:Prettytable/it
+Template:Properties Title
+Template:Properties Title/it
+Template:Property
+Template:Property/cs
+Template:Property/de
+Template:Property/en
+Template:Property/es
+Template:Property/fr
+Template:Property/it
+Template:Property/pl
+Template:Property/ro
+Template:Property/ru
+Template:Property/sv
+Template:Property/tr
+Template:PropertyData
+Template:PropertyData/it
+Template:PropertyTasks
+Template:PropertyTasks/it
+Template:PropertyView
+Template:PropertyView/it
+Template:Property Tab View
+Template:Property Tab View/it
+Template:ProprietaDati
+Template:ProprietaVista
+Template:ProprieteDonnees
+Template:ProprieteVue
+Template:Pt
+Template:Quote
+Template:Raytracing Tools
+Template:Raytracing Tools/cn
+Template:Raytracing Tools/cs
+Template:Raytracing Tools/de
+Template:Raytracing Tools/es
+Template:Raytracing Tools/fr
+Template:Raytracing Tools/it
+Template:Raytracing Tools/jp
+Template:Raytracing Tools/pl
+Template:Raytracing Tools/pt
+Template:Raytracing Tools/ro
+Template:Raytracing Tools/ru
+Template:Raytracing Tools/se
+Template:Raytracing Tools/sv
+Template:Raytracing Werkzeuge
+Template:Rightbox
+Template:Rightspacer
+Template:Ro
+Template:RobotManageTools/it
+Template:RobotTrajectoryTools/it
+Template:Ru
+Template:SchedaAzioni
+Template:SchizzoAltriStrumenti
+Template:SchizzoFinestraPrincipale/it
+Template:SchizzoGeometriaTools/it
+Template:SchizzoProprieta/it
+Template:Screenshot
+Template:Screenshot/es
+Template:Screenshot/fr
+Template:Screenshot/it
+Template:Se
+Template:SketcherOngletVue/fr
+Template:SketcherProprietes fr
+Template:Sketcher Fenetre principale/fr
+Template:Sketcher Main Window
+Template:Sketcher Main Window/it
+Template:Sketcher Solver/it
+Template:Sketcher Tools
+Template:Sketcher Tools/cn
+Template:Sketcher Tools/cs
+Template:Sketcher Tools/de
+Template:Sketcher Tools/es
+Template:Sketcher Tools/fr
+Template:Sketcher Tools/it
+Template:Sketcher Tools/jp
+Template:Sketcher Tools/pl
+Template:Sketcher Tools/pt
+Template:Sketcher Tools/pt-br
+Template:Sketcher Tools/ru
+Template:Sketcher Tools/sv
+Template:Sketcher Workbench Icon Link
+Template:Sketcher Workbench Icon Link/it
+Template:Softredirect
+Template:Softredirect/it
+Template:StdMenu
+Template:StrumentiDisegnoDraft
+Template:StrumentiModificaDraft
+Template:Sv
+Template:SystemInput
+Template:SystemInput/it
+Template:SystemOutput
+Template:SystemOutput/it
+Template:TOCright
+Template:TOCright/it
+Template:TRUE
+Template:TRUE/it
+Template:TasksTag
+Template:TasksTag/it
+Template:Term
+Template:Term/it
+Template:TitleProperty
+Template:TitleProperty/it
+Template:TitleTasks
+Template:TitleTasks/it
+Template:TitreProprietes
+Template:TitreTache
+Template:Touchepad Navigation
+Template:Touchepad Navigation/fr
+Template:Touchpad Navigation
+Template:Touchpad Navigation/cs
+Template:Touchpad Navigation/it
+Template:Tr
+Template:Transclusion demo
+Template:Transclusion demo/it
+Template:TutorialInfo
+Template:TutorialInfo/it
+Template:Téléchargement/fr
+Template:Téléchargements/fr
+Template:UnfinishedDocu
+Template:UnfinishedDocu/fr
+Template:UnfinishedDocu/it
+Template:UnfinishedDocu/jp
+Template:UnfinishedDocu/pt
+Template:Userdocnavi
+Template:Userdocnavi/es
+Template:Userdocnavi/fr
+Template:Userdocnavi/it
+Template:Variable
+Template:Variable/it
+Template:Version
+Template:Version/es
+Template:Version/fr
+Template:Version/it
+Template:VeryImportantMessage
+Template:VeryImportantMessage/it
+Template:VincoliSchizzoTools/it
+Template:WeitereTransformationswerkzeugeInPartDesign
+Template:Werkbänke
+Template:Workbenches
+Template:Workbenches/cn
+Template:Workbenches/cs
+Template:Workbenches/de
+Template:Workbenches/es
+Template:Workbenches/fr
+Template:Workbenches/id
+Template:Workbenches/it
+Template:Workbenches/jp
+Template:Workbenches/pt
+Template:Workbenches/pt-br
+Template:Workbenches/ro
+Template:Workbenches/ru
+Template:Workbenches/tr

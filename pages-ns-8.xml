@@ -1,0 +1,604 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.7/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.7/ http://www.mediawiki.org/xml/export-0.7.xsd" version="0.7" xml:lang="en">
+  <siteinfo>
+    <sitename>FreeCAD Documentation</sitename>
+    <base>http://www.freecadweb.org/wiki/index.php?title=Main_Page</base>
+    <generator>MediaWiki 1.20.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">FreeCAD</namespace>
+      <namespace key="5" case="first-letter">FreeCAD talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="1198" case="first-letter">Translations</namespace>
+      <namespace key="1199" case="first-letter">Translations talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>MediaWiki:Common.css</title>
+    <ns>8</ns>
+    <id>622</id>
+    <revision>
+      <id>108071</id>
+      <parentid>74174</parentid>
+      <timestamp>2014-09-01T19:35:19Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <sha1>tfxoklv435fe3oyr1bcpqh82n4ktuww</sha1>
+      <text xml:space="preserve" bytes="1577">@import url(&quot;/freecad.css&quot;);
+	 	
+body.skin-vector h1 {
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+@media screen {
+    body.skin-vector #content {
+        width: auto;	
+        max-width: 1024px;
+        margin-left: 14em !important;
+        border-radius: 3px;
+    }
+    body.skin-vector #mw-head-base, #footer {
+        margin-left: 14em !important;
+        background-image: none !important;
+        width: 960px;
+    }
+}
+
+body.skin-vector #mw-head {
+    right: auto !important;
+    max-width: 1240px;
+}
+
+body.skin-vector #left-navigation {
+    left: 14em;
+}
+
+body.skin-vector div.vectorTabs, body.skin-vector div.vectorTabs li.selected, body.skin-vector div.vectorTabs ul li, 
+body.skin-vector div.vectorTabs span, body.skin-vector div.vectorTabs span, body.skin-vector div.vectorMenu h5 a,
+body.skin-vector div.vectorTabs ul {
+    background-image: none;
+    background-color: transparent;
+}
+    
+
+body.skin-vector #mw-page-base {
+    background: transparent;
+    background-image: none;
+}
+
+body.skin-vector #mw-panel {
+    width: 13em !important;
+}
+
+body.skin-vector #mw-panel a, #mw-head a, #p-personal a {
+    color: #ddd !important;
+}
+
+body.skin-vector #mw-head li.selected a, #mw-head li.selected a:visited {
+    color: #bbb !important;
+}
+
+.ext-translate-msggroup-selector-menu {
+    color: #000 !important;
+}
+
+.note {
+    background: #eee;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.editsection {
+    font-size: 10px !important;
+}
+
+@media print {
+    body, #content {
+        background: #fff;
+   }
+   #content p, #content ul {
+        font-size: 20px;
+   }
+}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Common.js</title>
+    <ns>8</ns>
+    <id>623</id>
+    <revision>
+      <id>17181</id>
+      <parentid>9136</parentid>
+      <timestamp>2013-03-27T16:28:57Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Blanked the page</comment>
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+      <text xml:space="preserve" bytes="0" />
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Geshi.css</title>
+    <ns>8</ns>
+    <id>10893</id>
+    <revision>
+      <id>41102</id>
+      <timestamp>2013-09-07T21:46:03Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;/* CSS placed here will be applied to GeSHi syntax highlighting */  .python.source-python {     font-family: monospace,Courier !important; }&quot;</comment>
+      <sha1>tn4chucwwelczshu3r4gry1wamqrs7w</sha1>
+      <text xml:space="preserve" bytes="140">/* CSS placed here will be applied to GeSHi syntax highlighting */
+
+.python.source-python {
+    font-family: monospace,Courier !important;
+}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Print.css</title>
+    <ns>8</ns>
+    <id>2045</id>
+    <revision>
+      <id>74077</id>
+      <parentid>73293</parentid>
+      <timestamp>2014-03-04T23:23:42Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <sha1>t5h4rkn2k2vabr3xbbl9lj6smznio0f</sha1>
+      <text xml:space="preserve" bytes="278">body {
+    background: #fff !important;
+    font-size: 20px;
+}
+
+h2, .mediawiki h2 {
+    font-size: 30px;
+}
+
+.note {
+    background: #eee !important;
+}
+
+p, ul li {
+    font-size: 20px;
+}
+
+#footer {
+    font-size: 0.7em;
+}
+
+#footer li, #footer li a {
+    color: #000 !important;
+}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar</title>
+    <ns>8</ns>
+    <id>392</id>
+    <revision>
+      <id>43956</id>
+      <parentid>43953</parentid>
+      <timestamp>2013-11-29T00:43:04Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <sha1>nn101dwfa6ifz4izmjr88q3hn03qk26</sha1>
+      <text xml:space="preserve" bytes="2368">* 
+** Main_Page|sidebar-wikihome
+** Feature list|sidebar-features
+** Screenshots|Sidebar-screenshots
+** Download|Sidebar-downloads
+** Getting started|Sidebar-getting_started
+** FAQ|Sidebar-FAQ
+** http://forum.freecadweb.org/|Sidebar-forum
+** http://www.freecadweb.org/tracker/|Sidebar-tracker
+** Tutorials|Sidebar-tutorials
+
+* Users documentation
+** User hub|Users hub
+** About FreeCAD|Overview
+** Installing|Installing FreeCAD
+** Mouse Model|Navigating in the 3D space
+** Document structure|The FreeCAD Document
+** Preferences Editor|Setting user preferences
+** Workbench Concept|Working with workbenches
+** Draft Workbench|Drafting 2D objects
+** PartDesign Workbench|Working with constraints
+** Mesh Workbench|Working with meshes
+** Part Workbench|Working with 3D parts
+** Arch Workbench|Using architectural objects
+** Drawing Workbench|Printing your work in 2D
+** Ray Tracing Workbench|Rendering your work
+** Robot Workbench|Working with robots
+** Interface Customization|Customizing FreeCAD
+** List of Commands|Commands Reference
+* Powerusers documentation
+** Power users hub|Powerusers hub
+** Introduction to python|Discovering python
+** FreeCAD Scripting Basics|FreeCAD scripting basics
+** Macros|Working with macros
+** Mesh Scripting|Mesh scripting
+** Topological data scripting|Part scripting
+** Scenegraph|Accessing the 3D view
+** PyQt|Accessing the interface
+** Scripted objects|Parametric objects
+** Scripting examples|Scripting examples
+** Category:API|Python API
+* Developers documentation
+** Developer hub|Developers hub
+** Help FreeCAD|Helping FreeCAD
+** Compiling|Compiling FreeCAD
+** Licence|License details
+** Organization chart|Organization chart
+** Start up and Configuration|Startup options
+** Branding|Branding
+** Localisation|Translating FreeCAD
+
+* SEARCH
+
+* Help &amp; Feedback
+** http://forum.freecadweb.org/viewforum.php?f=3 | Help forum
+** http://forum.freecadweb.org/viewforum.php?f=8 | Discussion forum
+** http://www.freecadweb.org/tracker/main_page.php | Report bugs
+** irc://chat.freenode.net/freecad | IRC channel
+** http://sourceforge.net/mail/?group_id=49159 | Mailing lists
+** http://www.facebook.com/FreeCAD | Facebook page
+** http://crowdin.net/project/freecad | UI translation page
+
+* Meta
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+** Syndication feeds|RSS feeds
+** Interesting links|Links
+
+* TOOLBOX
+* LANGUAGES</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-FAQ</title>
+    <ns>8</ns>
+    <id>11594</id>
+    <revision>
+      <id>43960</id>
+      <timestamp>2013-11-29T00:44:47Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;FAQ&quot;</comment>
+      <sha1>0ebzh4h3rxu9hckc4tx4wnld15upyer</sha1>
+      <text xml:space="preserve" bytes="3">FAQ</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-FAQ/fr</title>
+    <ns>8</ns>
+    <id>11604</id>
+    <revision>
+      <id>43970</id>
+      <timestamp>2013-11-29T00:50:08Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Questions fréquentes&quot;</comment>
+      <sha1>2m7016ak6uei00udyr8tsxz6shk23nq</sha1>
+      <text xml:space="preserve" bytes="21">Questions fréquentes</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-downloads</title>
+    <ns>8</ns>
+    <id>11592</id>
+    <revision>
+      <id>43958</id>
+      <timestamp>2013-11-29T00:44:08Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Downloads&quot;</comment>
+      <sha1>jo3gmioqoumrs8bjewhuodzf12nzhot</sha1>
+      <text xml:space="preserve" bytes="9">Downloads</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-downloads/fr</title>
+    <ns>8</ns>
+    <id>11602</id>
+    <revision>
+      <id>43968</id>
+      <timestamp>2013-11-29T00:49:51Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Téléchargements&quot;</comment>
+      <sha1>rsdkmsjzcyxss937s5uh9nqq0bne7lq</sha1>
+      <text xml:space="preserve" bytes="17">Téléchargements</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-features</title>
+    <ns>8</ns>
+    <id>11590</id>
+    <revision>
+      <id>43955</id>
+      <timestamp>2013-11-29T00:40:11Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Features&quot;</comment>
+      <sha1>tgk2uyjwc2a9w80n6szr8yzmrp1gi1s</sha1>
+      <text xml:space="preserve" bytes="8">Features</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-features/fr</title>
+    <ns>8</ns>
+    <id>11600</id>
+    <revision>
+      <id>43966</id>
+      <timestamp>2013-11-29T00:49:36Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Caractéristiques&quot;</comment>
+      <sha1>igwslrnrzxf4n284w6k3y2h71g9uu9a</sha1>
+      <text xml:space="preserve" bytes="17">Caractéristiques</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-forum</title>
+    <ns>8</ns>
+    <id>11595</id>
+    <revision>
+      <id>43961</id>
+      <timestamp>2013-11-29T00:45:03Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Forum&quot;</comment>
+      <sha1>o6yex6qn3br9sdxl9wfu7dhnem33c3w</sha1>
+      <text xml:space="preserve" bytes="5">Forum</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-forum/fr</title>
+    <ns>8</ns>
+    <id>11605</id>
+    <revision>
+      <id>43971</id>
+      <timestamp>2013-11-29T00:50:11Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Forum&quot;</comment>
+      <sha1>o6yex6qn3br9sdxl9wfu7dhnem33c3w</sha1>
+      <text xml:space="preserve" bytes="5">Forum</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-getting started</title>
+    <ns>8</ns>
+    <id>11593</id>
+    <revision>
+      <id>43959</id>
+      <timestamp>2013-11-29T00:44:31Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Getting started&quot;</comment>
+      <sha1>dw0oe8mu21iz6hnlmgq28f7t21kp481</sha1>
+      <text xml:space="preserve" bytes="15">Getting started</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-getting started/fr</title>
+    <ns>8</ns>
+    <id>11603</id>
+    <revision>
+      <id>43969</id>
+      <timestamp>2013-11-29T00:49:58Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Premiers pas&quot;</comment>
+      <sha1>hoh617q0cil8tc5myjwffrwby8cw9wv</sha1>
+      <text xml:space="preserve" bytes="12">Premiers pas</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-messages</title>
+    <ns>8</ns>
+    <id>11598</id>
+    <revision>
+      <id>43964</id>
+      <timestamp>2013-11-29T00:47:38Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;sidebar-wikihome sidebar-features sidebar-screenshots sidebar-downloads sidebar-getting_started sidebar-FAQ sidebar-forum sidebar-tracker sidebar-tutorials&quot;</comment>
+      <sha1>dmtpc0jgupg7b2k3vybdjwn583sxrf1</sha1>
+      <text xml:space="preserve" bytes="155">sidebar-wikihome sidebar-features sidebar-screenshots sidebar-downloads sidebar-getting_started sidebar-FAQ sidebar-forum sidebar-tracker sidebar-tutorials</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-screenshots</title>
+    <ns>8</ns>
+    <id>11591</id>
+    <revision>
+      <id>43957</id>
+      <timestamp>2013-11-29T00:43:36Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Screenshots&quot;</comment>
+      <sha1>agafk3hogc7it81tjlk7qjgqyu0g0f1</sha1>
+      <text xml:space="preserve" bytes="11">Screenshots</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-screenshots/fr</title>
+    <ns>8</ns>
+    <id>11601</id>
+    <revision>
+      <id>43967</id>
+      <timestamp>2013-11-29T00:49:44Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Vues d'écran&quot;</comment>
+      <sha1>g5zghptji1s9qu4jk1wdr9jdzkm5puu</sha1>
+      <text xml:space="preserve" bytes="13">Vues d'écran</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-tracker</title>
+    <ns>8</ns>
+    <id>11596</id>
+    <revision>
+      <id>43962</id>
+      <timestamp>2013-11-29T00:45:26Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Tracker&quot;</comment>
+      <sha1>ml1g9myokgvj2zlqe2vgqae7dtuwkwb</sha1>
+      <text xml:space="preserve" bytes="7">Tracker</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-tracker/fr</title>
+    <ns>8</ns>
+    <id>11606</id>
+    <revision>
+      <id>43972</id>
+      <timestamp>2013-11-29T00:50:15Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Tracker&quot;</comment>
+      <sha1>ml1g9myokgvj2zlqe2vgqae7dtuwkwb</sha1>
+      <text xml:space="preserve" bytes="7">Tracker</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-tutorials</title>
+    <ns>8</ns>
+    <id>11597</id>
+    <revision>
+      <id>43963</id>
+      <timestamp>2013-11-29T00:45:47Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Tutorials&quot;</comment>
+      <sha1>btst9pak65orldn6t5jubif5vaiqdsn</sha1>
+      <text xml:space="preserve" bytes="9">Tutorials</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-tutorials/fr</title>
+    <ns>8</ns>
+    <id>11607</id>
+    <revision>
+      <id>43973</id>
+      <timestamp>2013-11-29T00:50:31Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Tutoriels&quot;</comment>
+      <sha1>fd1xi6dlaxsc5217ywr0s8mnd0w4ai5</sha1>
+      <text xml:space="preserve" bytes="9">Tutoriels</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-wikihome</title>
+    <ns>8</ns>
+    <id>11589</id>
+    <revision>
+      <id>43954</id>
+      <timestamp>2013-11-29T00:39:48Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Wiki Home&quot;</comment>
+      <sha1>njcvgbadoifgs3cldtonqnq9d3dleok</sha1>
+      <text xml:space="preserve" bytes="9">Wiki Home</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar-wikihome/fr</title>
+    <ns>8</ns>
+    <id>11599</id>
+    <revision>
+      <id>43965</id>
+      <timestamp>2013-11-29T00:49:15Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Created page with &quot;Page initiale&quot;</comment>
+      <sha1>ghibkmvei3nf78o0riq9shbgzi233ih</sha1>
+      <text xml:space="preserve" bytes="13">Page initiale</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sitenotice</title>
+    <ns>8</ns>
+    <id>3517</id>
+    <revision>
+      <id>17191</id>
+      <parentid>17164</parentid>
+      <timestamp>2013-03-27T16:29:51Z</timestamp>
+      <contributor>
+        <username>Yorik</username>
+        <id>2997</id>
+      </contributor>
+      <comment>Blanked the page</comment>
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+      <text xml:space="preserve" bytes="0" />
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,7 @@
+
+FreeCAD:Community Portal
+FreeCAD:Community Portal/en
+FreeCAD:Community Portal/it
+FreeCAD:Community Portal/se
+FreeCAD:Community Portal/sv
+FreeCAD:Copyrights

@@ -1,0 +1,435 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.7/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.7/ http://www.mediawiki.org/xml/export-0.7.xsd" version="0.7" xml:lang="en">
+  <siteinfo>
+    <sitename>FreeCAD Documentation</sitename>
+    <base>http://www.freecadweb.org/wiki/index.php?title=Main_Page</base>
+    <generator>MediaWiki 1.20.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">FreeCAD</namespace>
+      <namespace key="5" case="first-letter">FreeCAD talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="1198" case="first-letter">Translations</namespace>
+      <namespace key="1199" case="first-letter">Translations talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Category:Administration</title>
+    <ns>14</ns>
+    <id>255</id>
+    <revision>
+      <id>1763</id>
+      <parentid>1762</parentid>
+      <timestamp>2009-02-02T13:46:24Z</timestamp>
+      <contributor>
+        <username>Jriegel</username>
+        <id>6</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <sha1>crk523jz7twk64ovvfl6gj7qjpxmczv</sha1>
+      <text xml:space="preserve" bytes="107">This category contains articles and categories about wiki administrative subjects.
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Developer</title>
+    <ns>14</ns>
+    <id>257</id>
+    <revision>
+      <id>1771</id>
+      <parentid>1770</parentid>
+      <timestamp>2009-02-02T13:46:24Z</timestamp>
+      <contributor>
+        <username>Jriegel</username>
+        <id>6</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <sha1>32ukb6izu80cg25wh71jhcsvpxwsvgx</sha1>
+      <text xml:space="preserve" bytes="90">This category contains articles that are relevant for developers.
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Help</title>
+    <ns>14</ns>
+    <id>260</id>
+    <revision>
+      <id>1777</id>
+      <parentid>1776</parentid>
+      <timestamp>2009-02-02T13:46:24Z</timestamp>
+      <contributor>
+        <username>Jriegel</username>
+        <id>6</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <sha1>hagam9agx0ndmqtxxfs2j07yh4thv8a</sha1>
+      <text xml:space="preserve" bytes="110">This category lists pages that contain helpfull information on MediaWiki and editing.
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Image</title>
+    <ns>14</ns>
+    <id>262</id>
+    <revision>
+      <id>1781</id>
+      <parentid>1780</parentid>
+      <timestamp>2009-02-02T13:46:24Z</timestamp>
+      <contributor>
+        <username>Jriegel</username>
+        <id>6</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <sha1>e1vf9xal1wmtevf08gl1lku8uih2795</sha1>
+      <text xml:space="preserve" bytes="140">This category is the top level category for '''images'''. It should not contain any files, but only sub categories.
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:News</title>
+    <ns>14</ns>
+    <id>263</id>
+    <revision>
+      <id>1783</id>
+      <parentid>1782</parentid>
+      <timestamp>2009-02-02T13:46:24Z</timestamp>
+      <contributor>
+        <username>Jriegel</username>
+        <id>6</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <sha1>p8eaqzrlgejhs6an2e6psz42z94zrwd</sha1>
+      <text xml:space="preserve" bytes="94">This category contains articles with news and messages about FreeCAD.
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Template</title>
+    <ns>14</ns>
+    <id>31886</id>
+    <revision>
+      <id>98590</id>
+      <parentid>88118</parentid>
+      <timestamp>2014-07-25T07:15:48Z</timestamp>
+      <contributor>
+        <username>Renatorivo</username>
+        <id>1744</id>
+      </contributor>
+      <comment>UncategorizedTemplates</comment>
+      <sha1>n73xobgo8rryyc628tra7heepp72zo4</sha1>
+      <text xml:space="preserve" bytes="133">This category contains all the Templates
+
+See also [[Special:UncategorizedTemplates|UncategorizedTemplates]]
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:API</title>
+    <ns>14</ns>
+    <id>671</id>
+    <revision>
+      <id>88119</id>
+      <parentid>64328</parentid>
+      <timestamp>2014-05-29T16:51:08Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>7iil7ssubtg873i22p2v8jcgzbay9ys</sha1>
+      <text xml:space="preserve" bytes="281">This category gathers article that list objects and methods available to the python programmer.
+
+'''Note''': This section contains obsolete data, and is in the process of being transferred to autogenerated API documentation on http://www.freecadweb.org/api
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Command Reference</title>
+    <ns>14</ns>
+    <id>437</id>
+    <revision>
+      <id>88120</id>
+      <parentid>2362</parentid>
+      <timestamp>2014-05-29T16:52:16Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>3on6dtr5dxf1f59h6xckya86gv16eco</sha1>
+      <text xml:space="preserve" bytes="91">This category contains the help pages of each of FreeCAD command.
+
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Documentation</title>
+    <ns>14</ns>
+    <id>672</id>
+    <revision>
+      <id>88121</id>
+      <parentid>3221</parentid>
+      <timestamp>2014-05-29T16:52:26Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>8arx19scgp0sfrmgji101x60dnmues7</sha1>
+      <text xml:space="preserve" bytes="78">This category groups all of the FreeCAD documentation
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Macros</title>
+    <ns>14</ns>
+    <id>1406</id>
+    <revision>
+      <id>88122</id>
+      <parentid>6099</parentid>
+      <timestamp>2014-05-29T16:52:42Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>dsjbo27qb1ejyri8tb4gco2klgv73dn</sha1>
+      <text xml:space="preserve" bytes="113">This category contains macros to extend your FreeCAD installation with new functionality
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Pages with broken file links</title>
+    <ns>14</ns>
+    <id>29763</id>
+    <revision>
+      <id>88123</id>
+      <parentid>82623</parentid>
+      <timestamp>2014-05-29T16:52:51Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>b96pnnae55hd13i902pgpht3mb7ivs1</sha1>
+      <text xml:space="preserve" bytes="85">This category groups all of the Pages with broken file links
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Python Code</title>
+    <ns>14</ns>
+    <id>1407</id>
+    <revision>
+      <id>88124</id>
+      <parentid>6102</parentid>
+      <timestamp>2014-05-29T16:53:00Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>ec5t9mlkocxwagr357dwrt99bsyd90z</sha1>
+      <text xml:space="preserve" bytes="80">This category contains python code examples for FreeCAD
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Repository</title>
+    <ns>14</ns>
+    <id>696</id>
+    <revision>
+      <id>88125</id>
+      <parentid>3357</parentid>
+      <timestamp>2014-05-29T16:53:08Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>k3mux41nfqtva9ywdjk3bjlap83gd07</sha1>
+      <text xml:space="preserve" bytes="134">This category gathers pages that act as a repository of resources for FreeCAD, such as macros, parts, etc...
+
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Roadmap</title>
+    <ns>14</ns>
+    <id>2007</id>
+    <revision>
+      <id>88126</id>
+      <parentid>9111</parentid>
+      <timestamp>2014-05-29T16:53:19Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>1bd0lr7p76gm4eo1wxmlrzkckev2xr7</sha1>
+      <text xml:space="preserve" bytes="114">This category gathers all articles documenting what is planned in the Roadmap of FreeCAD.
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Tutorials</title>
+    <ns>14</ns>
+    <id>1210</id>
+    <revision>
+      <id>88127</id>
+      <parentid>40916</parentid>
+      <timestamp>2014-05-29T16:53:31Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>lxm4mk5bnaanzmv8mqv328udrh3t6hs</sha1>
+      <text xml:space="preserve" bytes="324">FreeCAD tutorials. Please help us adding more!
+
+Special pages are [[Offsite tutorials]] and [[Video tutorials]] that hierarchically contain links to tutorials hosted on external sites. A useful source of video tutorials is of course also a ''FreeCAD'' keyword search on [http://YouTube.com YouTube].
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Hubs</title>
+    <ns>14</ns>
+    <id>673</id>
+    <revision>
+      <id>88129</id>
+      <parentid>3229</parentid>
+      <timestamp>2014-05-29T16:55:13Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>mauz83is1e45dl5ws8zxq9mfr7b7npr</sha1>
+      <text xml:space="preserve" bytes="114">This category gathers the meeting points of the 3 broad categories of users of FreeCAD...
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Categories</title>
+    <ns>14</ns>
+    <id>256</id>
+    <revision>
+      <id>105628</id>
+      <parentid>105627</parentid>
+      <timestamp>2014-08-21T18:18:35Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>avywm8rg7eyth56kxjgopankigshe11</sha1>
+      <text xml:space="preserve" bytes="735">This is the '''top category''' which contains the main categories of the FreeCAD wiki. Please use categories to classify all articles. Use the following tools for working with categories. To see a list of
+* all categories defined, browse through the hierarchy ongoing from ''here'' or have a look on the [[Special:Categories|list of all categories]].
+* all ''articles'' that are ''not classified'', use the [[Special:Uncategorizedpages|list of uncategorized pages]].
+* all ''categories'' that are ''not classified'', use the [[Special:Uncategorizedcategories|list of uncategorized categories]].
+* all ''images'' that are ''not classified'', use the [[Special:Uncategorizedimages|list of uncategorized images]].
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Pages to delete</title>
+    <ns>14</ns>
+    <id>264</id>
+    <revision>
+      <id>105633</id>
+      <parentid>1786</parentid>
+      <timestamp>2014-08-21T18:25:39Z</timestamp>
+      <contributor>
+        <username>Berndhahnebach</username>
+        <id>3296</id>
+      </contributor>
+      <sha1>efl4jxzyqto2nawz0fa951iu2b3btx2</sha1>
+      <text xml:space="preserve" bytes="282">This category contains pages that have been marked for deletion. Should be reviewd by administrators from time to time. But do not delete the ''Template:Delete''!
+
+See [[Template Talk:delete]] on how to use the deletion template.
+
+[[Category:Administration]]
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:UnfinishedDocu</title>
+    <ns>14</ns>
+    <id>39657</id>
+    <revision>
+      <id>105781</id>
+      <timestamp>2014-08-22T19:29:11Z</timestamp>
+      <contributor>
+        <username>Renatorivo</username>
+        <id>1744</id>
+      </contributor>
+      <comment>Created page with &quot;This category contains all Unfinished Documents [[Category:Administration]] [[Category:Categories]]&quot;</comment>
+      <sha1>b99gnbkn187qs3d4dszj5a2lqiatqhk</sha1>
+      <text xml:space="preserve" bytes="99">This category contains all Unfinished Documents
+[[Category:Administration]]
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Wiki</title>
+    <ns>14</ns>
+    <id>39659</id>
+    <revision>
+      <id>105784</id>
+      <parentid>105783</parentid>
+      <timestamp>2014-08-22T19:45:38Z</timestamp>
+      <contributor>
+        <username>Renatorivo</username>
+        <id>1744</id>
+      </contributor>
+      <minor/>
+      <sha1>a4yqa43clw18od964ikekzsl5vbcf5d</sha1>
+      <text xml:space="preserve" bytes="112">This category contains all documents that relate to the Wiki
+[[Category:Administration]]
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Python Code/en</title>
+    <ns>14</ns>
+    <id>51389</id>
+    <revision>
+      <id>129911</id>
+      <timestamp>2014-12-07T17:37:05Z</timestamp>
+      <contributor>
+        <username>Renatorivo</username>
+        <id>1744</id>
+      </contributor>
+      <comment>N</comment>
+      <sha1>ec5t9mlkocxwagr357dwrt99bsyd90z</sha1>
+      <text xml:space="preserve" bytes="80">This category contains python code examples for FreeCAD
+
+[[Category:Categories]]</text>
+    </revision>
+  </page>
+</mediawiki>

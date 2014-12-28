@@ -1,0 +1,297 @@
+
+Category:API
+Category:API/de
+Category:API/en
+Category:API/es
+Category:API/fr
+Category:API/it
+Category:API/jp
+Category:API/pl
+Category:API/ru
+Category:API/se
+Category:API/sv
+Category:API Documentation
+Category:Administration
+Category:Administration/de
+Category:Administration/es
+Category:Administration/fr
+Category:Administration/id
+Category:Administration/it
+Category:Administration/jp
+Category:Administration/pl
+Category:Administration/pt
+Category:Administration/pt-br
+Category:Administration/ro
+Category:Administration/sv
+Category:Administration/tr
+Category:Categories
+Category:Categories/cn
+Category:Categories/cs
+Category:Categories/cz
+Category:Categories/de
+Category:Categories/en
+Category:Categories/es
+Category:Categories/fi
+Category:Categories/fr
+Category:Categories/id
+Category:Categories/it
+Category:Categories/ja
+Category:Categories/jp
+Category:Categories/pl
+Category:Categories/pt
+Category:Categories/pt-br
+Category:Categories/ro
+Category:Categories/ru
+Category:Categories/se
+Category:Categories/sv
+Category:Categories/tr
+Category:Categories/zh
+Category:Categories/zh-cn
+Category:Command Reference
+Category:Command Reference/cn
+Category:Command Reference/cs
+Category:Command Reference/de
+Category:Command Reference/en
+Category:Command Reference/es
+Category:Command Reference/fr
+Category:Command Reference/id
+Category:Command Reference/it
+Category:Command Reference/jp
+Category:Command Reference/pl
+Category:Command Reference/pt
+Category:Command Reference/pt-br
+Category:Command Reference/ro
+Category:Command Reference/ru
+Category:Command Reference/se
+Category:Command Reference/sv
+Category:Command Reference/tr
+Category:Developer
+Category:Developer/cs
+Category:Developer/de
+Category:Developer/es
+Category:Developer/fr
+Category:Developer/it
+Category:Developer/jp
+Category:Developer/pl
+Category:Developer/pt
+Category:Developer/pt-br
+Category:Developer/ro
+Category:Developer/ru
+Category:Developer/se
+Category:Developer/sv
+Category:Developer/tr
+Category:Developer Documentation
+Category:Developer Documentation/cn
+Category:Developer Documentation/cs
+Category:Developer Documentation/de
+Category:Developer Documentation/es
+Category:Developer Documentation/fr
+Category:Developer Documentation/it
+Category:Developer Documentation/jp
+Category:Developer Documentation/pl
+Category:Developer Documentation/pt
+Category:Developer Documentation/pt-br
+Category:Developer Documentation/ro
+Category:Developer Documentation/ru
+Category:Developer Documentation/se
+Category:Developer Documentation/sv
+Category:Developer Documentation/tr
+Category:Disambiguation
+Category:Documentation
+Category:Documentation/cn
+Category:Documentation/cs
+Category:Documentation/cz
+Category:Documentation/de
+Category:Documentation/en
+Category:Documentation/es
+Category:Documentation/fi
+Category:Documentation/fr
+Category:Documentation/id
+Category:Documentation/it
+Category:Documentation/ja
+Category:Documentation/jp
+Category:Documentation/pl
+Category:Documentation/pt
+Category:Documentation/pt-br
+Category:Documentation/ro
+Category:Documentation/ru
+Category:Documentation/se
+Category:Documentation/sv
+Category:Documentation/tr
+Category:Documentation/zh
+Category:Documentation/zh-cn
+Category:Foto
+Category:Help
+Category:Help/es
+Category:Help/fr
+Category:Help/it
+Category:Hubs
+Category:Hubs/cs
+Category:Hubs/cz
+Category:Hubs/de
+Category:Hubs/es
+Category:Hubs/fr
+Category:Hubs/id
+Category:Hubs/it
+Category:Hubs/jp
+Category:Hubs/pl
+Category:Hubs/pt
+Category:Hubs/pt-br
+Category:Hubs/ro
+Category:Hubs/ru
+Category:Hubs/se
+Category:Hubs/sv
+Category:Hubs/zh
+Category:Icon
+Category:Icon/fr
+Category:Image
+Category:Image/es
+Category:Image/fr
+Category:Image/it
+Category:Macros
+Category:Macros/cs
+Category:Macros/de
+Category:Macros/en
+Category:Macros/es
+Category:Macros/fr
+Category:Macros/it
+Category:Macros/pl
+Category:Macros/se
+Category:Macros/sv
+Category:News
+Category:News/cs
+Category:News/de
+Category:News/es
+Category:News/fr
+Category:News/it
+Category:News/jp
+Category:News/pl
+Category:News/ru
+Category:Pages to delete
+Category:Pages to delete/de
+Category:Pages with broken file links
+Category:Poweruser Documentation
+Category:Poweruser Documentation/cn
+Category:Poweruser Documentation/cs
+Category:Poweruser Documentation/de
+Category:Poweruser Documentation/en
+Category:Poweruser Documentation/es
+Category:Poweruser Documentation/fr
+Category:Poweruser Documentation/id
+Category:Poweruser Documentation/it
+Category:Poweruser Documentation/jp
+Category:Poweruser Documentation/pl
+Category:Poweruser Documentation/pt
+Category:Poweruser Documentation/pt-br
+Category:Poweruser Documentation/ro
+Category:Poweruser Documentation/ru
+Category:Poweruser Documentation/se
+Category:Poweruser Documentation/sv
+Category:Poweruser Documentation/tr
+Category:Python Code
+Category:Python Code/cn
+Category:Python Code/cs
+Category:Python Code/de
+Category:Python Code/en
+Category:Python Code/es
+Category:Python Code/fr
+Category:Python Code/id
+Category:Python Code/it
+Category:Python Code/jp
+Category:Python Code/pl
+Category:Python Code/ro
+Category:Python Code/ru
+Category:Python Code/se
+Category:Python Code/sv
+Category:Python Code/tr
+Category:Repository
+Category:Repository/cs
+Category:Repository/de
+Category:Repository/en
+Category:Repository/es
+Category:Repository/fr
+Category:Repository/it
+Category:Repository/se
+Category:Repository/sv
+Category:Roadmap
+Category:Roadmap/cs
+Category:Roadmap/de
+Category:Roadmap/es
+Category:Roadmap/fr
+Category:Roadmap/it
+Category:Roadmap/jp
+Category:Roadmap/pt
+Category:Roadmap/pt-br
+Category:Roadmap/ro
+Category:Roadmap/ru
+Category:Roadmap/se
+Category:Roadmap/sv
+Category:Screen Shot
+Category:Template
+Category:Template/cn
+Category:Template/cs
+Category:Template/de
+Category:Template/en
+Category:Template/es
+Category:Template/fi
+Category:Template/fr
+Category:Template/id
+Category:Template/it
+Category:Template/ja
+Category:Template/jp
+Category:Template/pl
+Category:Template/pt
+Category:Template/pt-br
+Category:Template/ro
+Category:Template/ru
+Category:Template/se
+Category:Template/sv
+Category:Template/tr
+Category:Template/zh
+Category:Tutorials
+Category:Tutorials/cn
+Category:Tutorials/cs
+Category:Tutorials/de
+Category:Tutorials/en
+Category:Tutorials/es
+Category:Tutorials/fr
+Category:Tutorials/id
+Category:Tutorials/it
+Category:Tutorials/jp
+Category:Tutorials/pl
+Category:Tutorials/pt-br
+Category:Tutorials/ro
+Category:Tutorials/ru
+Category:Tutorials/se
+Category:Tutorials/sv
+Category:Tutorials/tr
+Category:UnfinishedDocu
+Category:UnfinishedDocu/de
+Category:UnfinishedDocu/fr
+Category:UnfinishedDocu/pl
+Category:UnfinishedDocu/ro
+Category:UnfinishedDocu/sv
+Category:User Documentation
+Category:User Documentation/cn
+Category:User Documentation/cs
+Category:User Documentation/cz
+Category:User Documentation/de
+Category:User Documentation/en
+Category:User Documentation/es
+Category:User Documentation/fr
+Category:User Documentation/id
+Category:User Documentation/it
+Category:User Documentation/ja
+Category:User Documentation/jp
+Category:User Documentation/pl
+Category:User Documentation/pt
+Category:User Documentation/pt-br
+Category:User Documentation/ro
+Category:User Documentation/ru
+Category:User Documentation/se
+Category:User Documentation/sv
+Category:User Documentation/tr
+Category:User Documentation/zh
+Category:User Documentation/zh-cn
+Category:Wiki
+Category:Wiki/fr
