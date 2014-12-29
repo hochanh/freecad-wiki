@@ -1,7 +1,7 @@
 [r-wiki-get]
 ============
 
-Công cụ tải xuống một trang [mediawiki](http://mediawiki.org) (chẳng hạn trang [Wikipedia tiếng Việt](vi.wikipedia.org)), rồi tải lên một wiki khác.
+Công cụ tải xuống một trang [mediawiki](http://mediawiki.org) (chẳng hạn trang [Wikipedia tiếng Việt](http://vi.wikipedia.org)), rồi tải lên một wiki khác.
 
 Ở đây tôi tải xuống trang [freeCAD wiki](http://www.freecadweb.org/wiki) rồi tải lên [localhost](http://localhost/freecad) (để sử dụng ngoại tuyến).
 
