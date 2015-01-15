@@ -9,7 +9,7 @@ f.all <- ""
 while (length(f.node) != 0) {
 	# Get XML:
 	f.cont <- xmlGetAttr(f.node[[1]],"aicontinue")
-	f <- GET(paste0("http://www.freecadweb.org/wiki/api.php?action=query&list=allimages&ailimit=10&format=xml&aifrom=",f.cont))
+	f <- GET(paste0("http://www.freecadweb.org/wiki/api.php?action=query&list=allimages&ailimit=500&format=xml&aifrom=",f.cont))
 	f.xml <- content(f, "text")
 	f.doc <- xmlInternalTreeParse(f.xml)
 	

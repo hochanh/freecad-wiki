@@ -27,6 +27,8 @@ for (i in 0:15) {
 			f.doc <- xmlInternalTreeParse(f.xml)
 		}
 	}
+	if (f.all != "\n") {
 	path <- paste0("pages-ns-",i,".txt")
 	writeLines(f.all,path)
+	}
 }

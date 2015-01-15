@@ -34,9 +34,11 @@ File:A3 Modern.svg
 File:A3 Showcase.svg
 File:A4 Landscape.svg
 File:A4 Landscape ISO7200.svg
+File:A4 Landscape US Text Complet With Convention EU.svg
 File:A4 Landscape english.svg
 File:A4 Portrait 1 english.svg
 File:A4 Portrait ISO7200.svg
+File:A4 Portrait US Text Complet With Convention EU.svg
 File:A4 Simple.svg
 File:ABP Screenshot.png
 File:ANSI A Landscape.svg
@@ -381,6 +383,8 @@ File:Constraint PointToObject.png
 File:Constraint PointToObject.svg
 File:Constraint Radius.png
 File:Constraint Radius.svg
+File:Constraint SnellsLaw.png
+File:Constraint SnellsLaw.svg
 File:Constraint Symmetric.png
 File:Constraint Symmetric.svg
 File:Constraint Tangent.png
@@ -1096,6 +1100,7 @@ File:Freecadsplash14.png
 File:Freecadsplash15.png
 File:Function.svg
 File:GW Dim.png
+File:Geodesic macro.png
 File:Geometry.png
 File:Gettingstarted16.png
 File:Googleplus.png
@@ -1323,6 +1328,9 @@ File:Macro Install HowTo 24.png
 File:Macro Install HowTo 25.png
 File:Macro Install HowTo 26.png
 File:Macro Install HowTo 27.png
+File:Macro Install HowTo 28.png
+File:Macro Install HowTo 29.png
+File:Macro Install HowTo 30.png
 File:Macro Make Circle 3 Points.png
 File:Macro MessageBox 00.png
 File:Macro Mouse Cross 00.png
@@ -1604,6 +1612,7 @@ File:PartDesign Hole.svg
 File:PartDesign InternalExternalGear.svg
 File:PartDesign InvoluteGear.png
 File:PartDesign InvoluteGear.svg
+File:PartDesign Involute Gear 01.png
 File:PartDesign LinearPattern.png
 File:PartDesign LinearPattern.svg
 File:PartDesign Mirrored.png
@@ -2214,6 +2223,7 @@ File:SimpleSphere.jpg
 File:Situation.jpg
 File:SketcherCreateFilletExample.png
 File:SketcherCreateRectangleExample.png
+File:SketcherCreateSlotExample.png
 File:SketcherPolylineKeyM01.png
 File:SketcherPolylineKeyM02.png
 File:SketcherTrimExample1.png
@@ -2243,12 +2253,17 @@ File:Sketcher Conics.png
 File:Sketcher Conics.svg
 File:Sketcher ConnectLines.png
 File:Sketcher ConnectLines.svg
+File:Sketcher ConsraintTangent mode1.png
+File:Sketcher ConsraintTangent mode2.png
+File:Sketcher ConsraintTangent mode3.png
+File:Sketcher ConsraintTangent mode4.png
 File:Sketcher ConstrainCoincident.svg
 File:Sketcher ConstrainDistance.svg
 File:Sketcher ConstrainHorizontal.svg
 File:Sketcher ConstrainLock.png
 File:Sketcher ConstrainLock.svg
 File:Sketcher ConstrainParallel.svg
+File:Sketcher ConstrainSnellsLaw.png
 File:Sketcher ConstrainVertical.svg
 File:Sketcher Constraint fr 01.png
 File:Sketcher Constraint fr 02.png
@@ -2267,6 +2282,7 @@ File:Sketcher CreateCircle.svg
 File:Sketcher CreateCircle3Point.png
 File:Sketcher CreateEllipse.png
 File:Sketcher CreateEllipse.svg
+File:Sketcher CreateEllipse3Point.png
 File:Sketcher CreateEllipse 3points.png
 File:Sketcher CreateEllipse 3points.svg
 File:Sketcher CreateFillet.png
@@ -2376,6 +2392,7 @@ File:Sketcher SelectVerticalAxis.png
 File:Sketcher SelectVerticalAxis.svg
 File:Sketcher Sketch.png
 File:Sketcher Sketch.svg
+File:Sketcher SnellsLaw Example1.png
 File:Sketcher Solver Example1.png
 File:Sketcher Solver Example2.png
 File:Sketcher Text.svg
@@ -2386,6 +2403,7 @@ File:Sketcher TrimmingExample2.png
 File:Sketcher Validate it.png
 File:Sketcher ViewSketch.png
 File:Sketcher ViewSketch.svg
+File:Sketcher helper constraint example1.png
 File:Sketcher triangle2.png
 File:Sketcher triangle3 fc small.png
 File:Sketcher triangle3 small.png
@@ -2417,6 +2435,7 @@ File:Snap Perpendicular.png
 File:Snap Perpendicular.svg
 File:Snap WorkingPlane.png
 File:Snap WorkingPlane.svg
+File:Snells law2 witheq.svg
 File:Software-properties-gtk.png
 File:Solid sweep.png
 File:Solo test.png
@@ -2466,6 +2485,7 @@ File:Stairs it.png
 File:Startcenter.jpg
 File:Startcenter it 014.png
 File:Std About.png
+File:Std About2 it.png
 File:Std AboutQt.png
 File:Std AboutQt.svg
 File:Std AboutQt fr.png
@@ -2662,6 +2682,7 @@ File:Step6 symmetry setting.png
 File:Step7 arc defining BC.png
 File:Step8 arc BC finishing.png
 File:Step9 triangle ready.png
+File:Stickyfonts.jpg
 File:Style Sheets.png
 File:Style of navigation.png
 File:Style of navigation menu.png
@@ -2813,6 +2834,7 @@ File:US Letter ds Landscape IT.svg
 File:US Letter landscape.svg
 File:US Letter portrait.svg
 File:UnbiasedRendering.png
+File:Unfolding test2.png
 File:Units Calculator it.png
 File:UnsavedDocument.png
 File:Utilities-terminal.svg

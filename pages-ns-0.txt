@@ -381,6 +381,7 @@ Artwork/fr
 Artwork/it
 Artwork quick61 rework
 Assembly Basic Tutorial
+Assembly Basic Tutorial/en
 Assembly Basic Tutorial/es
 Assembly Basic Tutorial/it
 Assembly Workbench
@@ -712,6 +713,9 @@ Constraint Radius/pl
 Constraint Radius/pt
 Constraint Radius/pt-br
 Constraint Radius/sv
+Constraint SnellsLaw
+Constraint SnellsLaw/en
+Constraint SnellsLaw/it
 Constraint Symmetric
 Constraint Symmetric/cs
 Constraint Symmetric/de
@@ -744,6 +748,7 @@ Constraint TangentToStart
 Constraint TangentToStart/en
 Constraint TangentToStart/fr
 Constraint TangentToStart/it
+Constraint Tangent tmp
 Constraint Vertical
 Constraint Vertical/cs
 Constraint Vertical/de
@@ -2538,6 +2543,9 @@ Macro Geneva Wheel/it
 Macro Geneva Wheel GUI
 Macro Geneva Wheel GUI/en
 Macro Geneva Wheel GUI/it
+Macro GeodesicDome
+Macro GeodesicDome/en
+Macro GeodesicDome/it
 Macro HealArcs
 Macro HealArcs/cs
 Macro HealArcs/de
@@ -2545,6 +2553,10 @@ Macro HealArcs/en
 Macro HealArcs/es
 Macro HealArcs/fr
 Macro HealArcs/it
+Macro Install HowTo
+Macro Install HowTo/en
+Macro Install HowTo/fr
+Macro Install HowTo/it
 Macro JointWire
 Macro JointWire/cs
 Macro JointWire/de
@@ -2632,6 +2644,10 @@ Macro Shake Sketch
 Macro Shake Sketch/en
 Macro Shake Sketch/fr
 Macro Shake Sketch/it
+Macro SheetMetalUnfolder
+Macro SheetMetalUnfolder/en
+Macro SheetMetalUnfolder/fr
+Macro SheetMetalUnfolder/it
 Macro Solid Sweep
 Macro Solid Sweep/cs
 Macro Solid Sweep/de
@@ -2641,6 +2657,7 @@ Macro Solid Sweep/fr
 Macro Solid Sweep/it
 Macro Spring
 Macro Spring/en
+Macro Spring/fr
 Macro Spring/it
 Macro SuperWire
 Macro SuperWire/cs
@@ -2671,9 +2688,11 @@ Macro WireXYZ/en
 Macro WireXYZ/it
 Macro WorkFeatures
 Macro WorkFeatures/en
+Macro WorkFeatures/fr
 Macro WorkFeatures/it
 Macro crank simul
 Macro crank simul/en
+Macro crank simul/fr
 Macro crank simul/it
 Macro draw2DFunction
 Macro draw2DFunction/cs
@@ -2828,6 +2847,7 @@ MenuMacro/it
 Mesh API
 Mesh API/en
 Mesh API/es
+Mesh API/fr
 Mesh API/it
 Mesh API/jp
 Mesh BoundingBox
@@ -2935,6 +2955,7 @@ Mesh Workbench/cs
 Mesh Workbench/de
 Mesh Workbench/en
 Mesh Workbench/es
+Mesh Workbench/fr
 Mesh Workbench/id
 Mesh Workbench/it
 Mesh Workbench/jp
@@ -3174,6 +3195,7 @@ PartDesign Bearingholder Tutorial I/it
 PartDesign Bearingholder Tutorial II
 PartDesign Bearingholder Tutorial II/en
 PartDesign Bearingholder Tutorial II/es
+PartDesign Bearingholder Tutorial II/fr
 PartDesign Bearingholder Tutorial II/it
 PartDesign Chamfer
 PartDesign Chamfer/cs
@@ -4156,6 +4178,7 @@ Robot InsertWaypointPre/it
 Robot InsertWaypointPre/jp
 Robot Key
 Robot Key/en
+Robot Key/it
 Robot Module
 Robot Module/cn
 Robot Module/cs
@@ -4356,6 +4379,7 @@ Sketcher CloseShape/it
 Sketcher ConnectLines
 Sketcher ConnectLines/en
 Sketcher ConnectLines/it
+Sketcher ConstrainSnellsLaw
 Sketcher ConstructionMode
 Sketcher ConstructionMode/cs
 Sketcher ConstructionMode/de
@@ -4375,6 +4399,7 @@ Sketcher EditSketch/it
 Sketcher Ellipse
 Sketcher Ellipse/en
 Sketcher Ellipse/it
+Sketcher Ellipse by 3 Points
 Sketcher External
 Sketcher External/cs
 Sketcher External/en
@@ -4603,6 +4628,7 @@ Sketcher Workbench/ro
 Sketcher Workbench/ru
 Sketcher Workbench/sv
 Sketcher Workbench/tr
+Sketcher helper constraint
 Sketcher project
 Sketcher project/en
 Sketcher project/es
@@ -4757,12 +4783,14 @@ Std DebugInto/en
 Std DebugInto/it
 Std DebugMacro
 Std DebugMacro/en
+Std DebugMacro/fr
 Std DebugMacro/it
 Std DebugOver
 Std DebugOver/en
 Std DebugOver/it
 Std DebugStop
 Std DebugStop/en
+Std DebugStop/fr
 Std DebugStop/it
 Std DebugToggle
 Std DebugToggle/en
@@ -4783,6 +4811,7 @@ Std DlgCustomize/fr
 Std DlgCustomize/it
 Std DlgCustomize/jp
 Std DlgMacroExecute
+Std DlgMacroExecute/en
 Std DlgMacroExecute/fr
 Std DlgMacroExecute/it
 Std DlgMacroExecute/jp
@@ -4792,10 +4821,12 @@ Std DlgMacroExecuteDirect/fr
 Std DlgMacroExecuteDirect/it
 Std DlgMacroExecuteDirect/jp
 Std DlgMacroRecord
+Std DlgMacroRecord/en
 Std DlgMacroRecord/fr
 Std DlgMacroRecord/it
 Std DlgMacroRecord/jp
 Std DlgMacroStop
+Std DlgMacroStop/en
 Std DlgMacroStop/fr
 Std DlgMacroStop/it
 Std DlgMacroStop/jp
